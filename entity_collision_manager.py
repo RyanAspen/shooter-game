@@ -9,7 +9,7 @@ class EntityCollisionManager:
     EntityCollisionManager is a class that continuously checks for entity collisions and outputs a set of collisions
     """
 
-    def __init__(self, entities : list[PixelEntity]):
+    def __init__(self, entities : list[PixelEntity] = []):
         self.entities = entities
         self.collisions = dict()
 

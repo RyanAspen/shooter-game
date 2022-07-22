@@ -2,7 +2,8 @@ from shutil import move
 import pygame
 from pixel_frame import PixelFrame
 
-point = tuple[int, int]
+point = list[int, int]
+speed = list[int,int]
 
 class PixelEntity:
 
@@ -41,7 +42,7 @@ class PixelEntity:
             rect.top += self.spawn_point[1]
         
 
-    def move_relative(self, movement : tuple[int, int]):
+    def move_relative(self, movement : speed):
         self.current_point[0] += movement[0]
         self.current_point[1] += movement[1]
 
@@ -62,7 +63,7 @@ class PixelEntity:
             rect.left += movement[0]
             rect.top += movement[1]
 
-    def move_absolute(self, new_location : tuple[int, int]):
+    def move_absolute(self, new_location : speed):
         self.diff = tuple(map(lambda i, j: j - i, new_location, self.current_point))
         self.current_point = new_location
 
@@ -83,9 +84,14 @@ class PixelEntity:
             rect.left += self.diff[0]
             rect.top += self.diff[1]
     
+
+
     def draw(self, window : pygame.Surface):
         for rect, color in self.current_frame.visual_rects:
             pygame.draw.rect(window, color, rect)
+
+    def update(self, window : pygame.Surface):
+        self.draw(window)
 
     def change_frame(self, frame_key : str):
         self.current_frame_key = frame_key
