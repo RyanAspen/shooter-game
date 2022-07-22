@@ -90,7 +90,7 @@ class PixelEntity:
         for rect, color in self.current_frame.visual_rects:
             pygame.draw.rect(window, color, rect)
 
-    def update(self, window : pygame.Surface):
+    def update(self, window : pygame.Surface, events : list[pygame.event.Event]):
         self.draw(window)
 
     def change_frame(self, frame_key : str):

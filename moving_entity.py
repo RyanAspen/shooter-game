@@ -12,9 +12,9 @@ class MovingEntity(PixelEntity):
         super().__init__(frame_dict, spawn_point, starting_frame_key, name)
         self.speed = initial_speed
 
-    def update(self, window : pygame.Surface):
+    def update(self, window : pygame.Surface, events : list[pygame.event.Event]):
         self.move_relative(self.speed)
-        super().update(window)
+        super().update(window, events)
 
     def change_speed_relative(self, speed_change):
         self.speed[0] += speed_change[0]

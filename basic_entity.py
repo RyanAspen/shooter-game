@@ -5,7 +5,7 @@ from pixel_frame import PixelFrame
 
 point = list[int, int]
 
-size = 10
+size = 5
 
 class BasicEntity(MovingEntity):
 
@@ -34,12 +34,12 @@ class BasicEntity(MovingEntity):
         speed_left = 0
         speed_top = 0
         while speed_left == 0 or speed_top == 0:
-            speed_left = random.randint(-3, 3)
-            speed_top = random.randint(-3, 3)
+            speed_left = random.randint(-5, 5)
+            speed_top = random.randint(-5, 5)
         initial_speed = [speed_left, speed_top]
         super().__init__(frame_dict, spawn_point, "Normal", "Basic Entity", initial_speed)
 
-    def update(self, window : pygame.Surface):
+    def update(self, window : pygame.Surface, events : list[pygame.event.Event]):
         width = window.get_width()
         height = window.get_height()
         new_speed = self.speed
@@ -52,4 +52,4 @@ class BasicEntity(MovingEntity):
         elif self.current_point[1] > height:
             new_speed[1] = -abs(self.speed[1])
         self.change_speed_absolute(new_speed)
-        super().update(window)
+        super().update(window, events)
