@@ -6,7 +6,7 @@ from pixel_frame import PixelFrame
 point = list[int, int]
 
 size = 10
-speed_scale = 2
+speed_scale = 5
 
 
 class PlayerEntity(MovingEntity):
@@ -141,30 +141,30 @@ class PlayerEntity(MovingEntity):
         if self.up > 0 and self.down == 0:
             if self.left > 0 and self.right == 0:
                 self.change_frame("Left/Up")
-                new_speed = [-1, -1]
+                new_speed = [-speed_scale, -speed_scale]
             elif self.left == 0 and self.right > 0:
                 self.change_frame("Right/Up")
-                new_speed = [1, -1]
+                new_speed = [speed_scale, -speed_scale]
             else:
                 self.change_frame("Up")
-                new_speed = [0, -1]
+                new_speed = [0, -speed_scale]
         elif self.up == 0 and self.down > 0:
             if self.left > 0 and self.right == 0:
                 self.change_frame("Left/Down")
-                new_speed = [-1, 1]
+                new_speed = [-speed_scale, speed_scale]
             elif self.left == 0 and self.right > 0:
                 self.change_frame("Right/Down")
-                new_speed = [1, 1]
+                new_speed = [speed_scale, speed_scale]
             else:
                 self.change_frame("Down")
-                new_speed = [0, 1]
+                new_speed = [0, speed_scale]
         else:
             if self.left > 0 and self.right == 0:
                 self.change_frame("Left")
-                new_speed = [-1, 0]
+                new_speed = [-speed_scale, 0]
             elif self.left == 0 and self.right > 0:
                 self.change_frame("Right")
-                new_speed = [1, 0]
+                new_speed = [speed_scale, 0]
             else:
                 self.change_frame("Normal")
                 new_speed = [0, 0]

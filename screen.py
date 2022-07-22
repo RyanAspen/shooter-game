@@ -1,52 +1,47 @@
 import random
-import sys, pygame
+import sys
 import time
+import pygame
 from basic_entity import BasicEntity
 from entity_collision_manager import EntityCollisionManager
-from pixel_entity import PixelEntity
 from player_entity import PlayerEntity
 
 
-def sort_entities_by_layer_priority(entities: list[PixelEntity]):
-    entities.sort(key=lambda x: x.layer_priority)
-    return entities
+class Screen:
+    def __init__(self, width, height, base_color):
+        pygame.init()
+        size = width, height
+        self.window = pygame.display.set_mode(size)
+        self.base_color = base_color
 
+        self.entities = list()
 
-pygame.init()
+        # Initial Entity Setup
+        for _ in range(500):
+            spawn_point = [random.randint(0, width), random.randint(0, height)]
+            entity = BasicEntity(spawn_point)
+            self.entities.append(entity)
+            entity.spawn()
 
-size = width, height = 800, 600
-black = 0, 0, 0
+        player = PlayerEntity([width / 2, height / 2])
+        self.entities.append(player)
+        player.spawn()
 
-window = pygame.display.set_mode(size)
+        # Add entities that care about collisions here
+        self.collision_manager = EntityCollisionManager()
 
+    def update(self):
+        events = pygame.event.get()
+        for event in events:
+            if event.type == pygame.QUIT:
+                sys.exit()
 
-entities = list()
+        self.window.fill(self.base_color)
 
-for x in range(500):
-    spawn_point = [random.randint(0, width), random.randint(0, height)]
-    entity = BasicEntity(spawn_point)
-    entities.append(entity)
-    entity.spawn()
+        self.collision_manager.update_collisions()
 
-player = PlayerEntity([400, 300])
-entities.append(player)
-player.spawn()
+        for entity in self.entities:
+            entity.update(self.window, events)
 
-entities = sort_entities_by_layer_priority(entities)
-collision_manager = EntityCollisionManager()
-
-while True:
-    events = pygame.event.get()
-    for event in events:
-        if event.type == pygame.QUIT:
-            sys.exit()
-
-    window.fill(black)
-
-    collision_manager.update_collisions()
-
-    for entity in entities:
-        entity.update(window, events)
-
-    pygame.display.flip()  # Use .update instead for more optimization
-    time.sleep(0.01)
+        pygame.display.flip()  # Use .update instead for more optimization
+        time.sleep(0.01)
