@@ -2,11 +2,7 @@ import random
 import sys, pygame
 import time
 from basic_entity import BasicEntity
-from entity_collision_manager import (
-    EntityCollisionManager,
-    are_colliding,
-    are_different,
-)
+from entity_collision_manager import EntityCollisionManager
 from pixel_entity import PixelEntity
 from player_entity import PlayerEntity
 

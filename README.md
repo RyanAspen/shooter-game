@@ -1,1 +1,1 @@
-This is a test.
+This project uses the Python black formatter.
