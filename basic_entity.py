@@ -30,4 +30,4 @@ class BasicEntity(PixelEntity):
             "Normal" : frame_1,
             "Hit" : frame_2
         }
-        super().__init__(frame_dict, spawn_point, "Normal")
+        super().__init__(frame_dict, spawn_point, "Normal", "Basic Entity")

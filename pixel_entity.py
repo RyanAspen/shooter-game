@@ -12,7 +12,7 @@ class PixelEntity:
     a set of invisible rectangles describing the hitboxes of that entity, 
     and the top-left corner of the entity when initially created
     """
-    def __init__(self, frame_dict : dict[str, PixelFrame], spawn_point : point, starting_frame_key : str):
+    def __init__(self, frame_dict : dict[str, PixelFrame], spawn_point : point, starting_frame_key : str, name : str):
         self.frame_dict = frame_dict
         self.spawn_point = spawn_point
         self.current_point = spawn_point
@@ -20,6 +20,7 @@ class PixelEntity:
         self.current_frame = frame_dict[starting_frame_key]
         self.id = PixelEntity.id_counter
         PixelEntity.id_counter += 1
+        self.name = name
 
     def spawn(self):
         for frame_key in self.frame_dict:
@@ -91,12 +92,3 @@ class PixelEntity:
         self.current_frame = self.frame_dict[frame_key]
 
 
-def are_colliding(entity_1 : PixelEntity, entity_2 : PixelEntity):
-    for rect1 in entity_1.current_frame.hitboxes:
-        for rect2 in entity_2.current_frame.hitboxes:
-            if rect1.colliderect(rect2):
-                return True
-    return False
-
-def are_different(entity_1 : PixelEntity, entity_2 : PixelEntity):
-    return entity_1.id != entity_2.id
