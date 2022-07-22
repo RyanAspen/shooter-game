@@ -2,17 +2,30 @@ import pygame
 from pixel_entity import PixelEntity
 from pixel_frame import PixelFrame
 
-speed = list[int,int]
+speed = list[int, int]
 point = list[int, int]
 
 
 class MovingEntity(PixelEntity):
-
-    def __init__(self, frame_dict : dict[str, PixelFrame], spawn_point : point, starting_frame_key : str, name : str, initial_speed : speed):
-        super().__init__(frame_dict, spawn_point, starting_frame_key, name)
+    def __init__(
+        self,
+        frame_dict: dict[str, PixelFrame],
+        spawn_point: point,
+        starting_frame_key: str,
+        name: str,
+        initial_speed: speed,
+        layer_priority: int,
+    ):
+        super().__init__(
+            frame_dict=frame_dict,
+            spawn_point=spawn_point,
+            starting_frame_key=starting_frame_key,
+            name=name,
+            layer_priority=layer_priority,
+        )
         self.speed = initial_speed
 
-    def update(self, window : pygame.Surface, events : list[pygame.event.Event]):
+    def update(self, window: pygame.Surface, events: list[pygame.event.Event]):
         self.move_relative(self.speed)
         super().update(window, events)
 
