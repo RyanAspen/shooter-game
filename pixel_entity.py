@@ -6,6 +6,7 @@ point = tuple[int, int]
 
 class PixelEntity:
 
+    id_counter = 1
     """
     PixelEntity contains at minimum, a set of rectangles describing the pixels of the entity,
     a set of invisible rectangles describing the hitboxes of that entity, 
@@ -17,6 +18,8 @@ class PixelEntity:
         self.current_point = spawn_point
         self.current_frame_key = starting_frame_key
         self.current_frame = frame_dict[starting_frame_key]
+        self.id = PixelEntity.id_counter
+        PixelEntity.id_counter += 1
 
     def spawn(self):
         for frame_key in self.frame_dict:
@@ -94,3 +97,6 @@ def are_colliding(entity_1 : PixelEntity, entity_2 : PixelEntity):
             if rect1.colliderect(rect2):
                 return True
     return False
+
+def are_different(entity_1 : PixelEntity, entity_2 : PixelEntity):
+    return entity_1.id != entity_2.id
