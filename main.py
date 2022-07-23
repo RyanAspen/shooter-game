@@ -1,13 +1,12 @@
 import pygame
 from basic_scene import BasicScene
+from projectile_scene import ProjectileScene
 from screen import Screen
 import constants
 
-scenes = [BasicScene()]
+scenes = [ProjectileScene(), BasicScene()]
 
 screen = Screen(scenes)
 
 while True:
-    if screen.active_scene is None:
-        screen.activate_scene()
     screen.update()

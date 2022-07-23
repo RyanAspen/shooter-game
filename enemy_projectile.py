@@ -1,13 +1,14 @@
 import pygame
 from moving_entity import MovingEntity
 from pixel_frame import PixelFrame
+import constants
 
 point = list[int, int]
 
-size = 10
+size = 5
 
 
-class BasicProjectile(MovingEntity):
+class EnemyProjectile(MovingEntity):
 
     """
     PlayerEntity is an entity that is controlled by user input
@@ -19,8 +20,8 @@ class BasicProjectile(MovingEntity):
         self.counting_down = False
 
         visual_rects_normal = [
-            (pygame.Rect(0, 0, size, size * 2), pygame.Color(0, 255, 0)),
-            (pygame.Rect(0, size * 2, size, size * 3), pygame.Color(255, 0, 0)),
+            (pygame.Rect(0, 0, size, size * 2), pygame.Color(255, 255, 0)),
+            (pygame.Rect(0, size * 2, size, size * 3), pygame.Color(200, 0, 0)),
         ]
         hitboxes_normal = [pygame.Rect(0, 0, size * 2, size * 2)]
         frame_normal = PixelFrame(
@@ -28,10 +29,10 @@ class BasicProjectile(MovingEntity):
         )
 
         visual_rects_exploding_1 = [
-            (pygame.Rect(0, 0, size * 5, size * 5), pygame.Color(255, 100, 0)),
+            (pygame.Rect(0, 0, size * 5, size * 5), pygame.Color(0, 100, 255)),
             (
                 pygame.Rect(size, size, size * 3, size * 3),
-                pygame.Color(255, 255, 0),
+                pygame.Color(0, 255, 255),
             ),
         ]
         hitboxes_exploding_1 = []
@@ -40,8 +41,8 @@ class BasicProjectile(MovingEntity):
         )
 
         visual_rects_exploding_2 = [
-            (pygame.Rect(0, 0, size * 7, size * 7), pygame.Color(255, 100, 0)),
-            (pygame.Rect(size, size, size * 5, size * 5), pygame.Color(255, 255, 0)),
+            (pygame.Rect(0, 0, size * 7, size * 7), pygame.Color(0, 100, 255)),
+            (pygame.Rect(size, size, size * 5, size * 5), pygame.Color(0, 255, 255)),
         ]
         hitboxes_exploding_2 = []
         frame_exploding_2 = PixelFrame(
@@ -49,8 +50,8 @@ class BasicProjectile(MovingEntity):
         )
 
         visual_rects_exploding_3 = [
-            (pygame.Rect(0, 0, size * 9, size * 9), pygame.Color(255, 100, 0)),
-            (pygame.Rect(size, size, size * 7, size * 7), pygame.Color(255, 255, 0)),
+            (pygame.Rect(0, 0, size * 9, size * 9), pygame.Color(0, 100, 255)),
+            (pygame.Rect(size, size, size * 7, size * 7), pygame.Color(0, 255, 255)),
         ]
         hitboxes_exploding_3 = []
         frame_exploding_3 = PixelFrame(
@@ -68,8 +69,8 @@ class BasicProjectile(MovingEntity):
             frame_dict=frame_dict,
             spawn_point=spawn_point,
             starting_frame_key="Normal",
-            name="Basic Projectile",
-            initial_speed=[0, -8],
+            name="Enemy Projectile",
+            initial_speed=[0, 5],
             layer_priority=2,
         )
 
@@ -80,11 +81,11 @@ class BasicProjectile(MovingEntity):
         collisions: list[str],
     ):
         should_delete = False
-        if self.current_point[1] < 0:
+        if self.current_point[1] > constants.height:
 
             should_delete = True
         if self.explosion_stage == 0 and self.is_colliding_with_name(
-            collisions, "Basic Entity"
+            collisions, "Player Entity"
         ):
             self.counting_down = True
         if self.counting_down:

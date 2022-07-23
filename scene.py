@@ -29,3 +29,6 @@ class Scene:
             entities = []
             still_active = False
         return entities, still_active
+
+    def is_complete(self):
+        return self.time_elapsed > self.duration

@@ -23,7 +23,7 @@ class Screen:
 
         self.active_scene = None
 
-        player = PlayerEntity([constants.width / 2, constants.height / 2])
+        player = PlayerEntity([constants.width / 2, constants.height - 20])
         self.entities.append(player)
         player.spawn()
 
@@ -40,6 +40,19 @@ class Screen:
         for event in events:
             if event.type == pygame.QUIT:
                 sys.exit()
+
+        if (
+            self.are_no_enemies()
+            and self.active_scene is not None
+            and self.active_scene.is_complete()
+        ):
+            self.active_scene = None
+
+        if self.are_no_enemies() and len(self.scenes) > 0 and self.active_scene is None:
+            self.activate_scene()
+
+        if self.active_scene is None:
+            return
 
         self.window.fill(self.active_scene.background_color)
 
@@ -87,6 +100,16 @@ class Screen:
 
     def remove_entity(self, entity: PixelEntity):
         self.entities.remove(entity)
+
+    def are_no_enemies(self):
+        for entity in self.entities:
+            if (
+                entity.name == "Enemy Entity"
+                or entity.name == "Enemy Projectile"
+                or entity.name == "Basic Entity"
+            ):
+                return False
+        return True
 
 
 def sort_entities_by_layer_priority(entities: list[PixelEntity]):

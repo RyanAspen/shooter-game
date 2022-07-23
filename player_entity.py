@@ -124,6 +124,10 @@ class PlayerEntity(MovingEntity):
         events: list[pygame.event.Event],
         collisions: list[str],
     ):
+        if self.is_colliding_with_name(collisions, "Enemy Projectile"):
+            should_be_deleted = True
+        else:
+            should_be_deleted = False
         entity_creation_request = None
         new_speed = self.speed
         for event in events:
@@ -182,4 +186,4 @@ class PlayerEntity(MovingEntity):
                 new_speed = [0, 0]
         self.change_speed_absolute(new_speed)
         super().update(window, events, collisions)
-        return False, entity_creation_request
+        return should_be_deleted, entity_creation_request
