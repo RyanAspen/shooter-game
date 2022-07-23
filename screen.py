@@ -54,7 +54,6 @@ class Screen:
                 self.window, events, entity_collisions
             )
             if should_delete:
-                print("deleting projectile")
                 self.remove_entity(entity)
             if entity_creation_request is not None:
                 self.process_entity_creation_request(entity_creation_request)
