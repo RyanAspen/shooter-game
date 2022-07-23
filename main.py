@@ -1,7 +1,13 @@
 import pygame
+from basic_scene import BasicScene
 from screen import Screen
+import constants
 
-screen = Screen(800, 800, pygame.Color(100, 100, 200))
+scenes = [BasicScene()]
+
+screen = Screen(scenes)
 
 while True:
+    if screen.active_scene is None:
+        screen.activate_scene()
     screen.update()

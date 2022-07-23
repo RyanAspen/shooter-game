@@ -1,3 +1,4 @@
+import constants
 import random
 import sys
 import time
@@ -8,32 +9,31 @@ from entity_collision_manager import EntityCollisionManager
 from entity_creation_request import EntityCreationRequest
 from pixel_entity import PixelEntity
 from player_entity import PlayerEntity
+from scene import Scene
 
 
 class Screen:
-    def __init__(self, width, height, base_color):
+    def __init__(self, scenes: list[Scene]):
         pygame.init()
-        size = width, height
+        size = constants.width, constants.height
         self.window = pygame.display.set_mode(size)
-        self.base_color = base_color
-
         self.entities = list()
 
-        # Initial Entity Setup
-        for _ in range(25):
-            spawn_point = [random.randint(0, width), random.randint(0, height)]
-            entity = BasicEntity(spawn_point)
-            self.entities.append(entity)
-            entity.spawn()
+        self.scenes = scenes
 
-        player = PlayerEntity([width / 2, height / 2])
+        self.active_scene = None
+
+        player = PlayerEntity([constants.width / 2, constants.height / 2])
         self.entities.append(player)
         player.spawn()
 
-        self.entities = sort_entities_by_layer_priority(self.entities)
-
         # Add entities that care about collisions here
         self.collision_manager = EntityCollisionManager(self.entities)
+
+    def activate_scene(self):
+        if len(self.scenes) > 0:
+            self.active_scene = self.scenes[0]
+            self.scenes = self.scenes[1:]
 
     def update(self):
         events = pygame.event.get()
@@ -41,9 +41,12 @@ class Screen:
             if event.type == pygame.QUIT:
                 sys.exit()
 
-        self.window.fill(self.base_color)
+        self.window.fill(self.active_scene.background_color)
 
         collisions = self.collision_manager.update_collisions()
+
+        new_entities, scene_active = self.active_scene.update_entities_to_spawn()
+        self.add_entities(new_entities)
 
         for entity in self.entities:
             if entity.id in collisions:
@@ -74,6 +77,13 @@ class Screen:
         self.entities = sort_entities_by_layer_priority(self.entities)
         self.collision_manager.add_entity(entity)
         entity.spawn()
+
+    def add_entities(self, entities: list[PixelEntity]):
+        self.entities += entities
+        self.entities = sort_entities_by_layer_priority(self.entities)
+        for entity in entities:
+            self.collision_manager.add_entity(entity)
+            entity.spawn()
 
     def remove_entity(self, entity: PixelEntity):
         self.entities.remove(entity)
