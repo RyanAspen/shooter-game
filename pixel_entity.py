@@ -1,4 +1,3 @@
-from shutil import move
 import pygame
 from pixel_frame import PixelFrame
 
@@ -97,9 +96,24 @@ class PixelEntity:
         for rect, color in self.current_frame.visual_rects:
             pygame.draw.rect(window, color, rect)
 
-    def update(self, window: pygame.Surface, events: list[pygame.event.Event]):
+    def update(
+        self,
+        window: pygame.Surface,
+        events: list[pygame.event.Event],
+        collisions: list[str],
+    ):
         self.draw(window)
 
     def change_frame(self, frame_key: str):
         self.current_frame_key = frame_key
         self.current_frame = self.frame_dict[frame_key]
+
+    def is_colliding_with_name(
+        self,
+        collisions: list[str],
+        collision_name: str = "ALL",
+    ):
+        for name in collisions:
+            if collision_name == "ALL" or collision_name == name:
+                return True
+        return False

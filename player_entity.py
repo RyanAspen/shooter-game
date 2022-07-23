@@ -1,5 +1,6 @@
-import random
 import pygame
+from basic_projectile import BasicProjectile
+from entity_creation_request import EntityCreationRequest
 from moving_entity import MovingEntity
 from pixel_frame import PixelFrame
 
@@ -114,10 +115,16 @@ class PlayerEntity(MovingEntity):
             starting_frame_key="Normal",
             name="Player Entity",
             initial_speed=[0, 0],
-            layer_priority=0,
+            layer_priority=1,
         )
 
-    def update(self, window: pygame.Surface, events: list[pygame.event.Event]):
+    def update(
+        self,
+        window: pygame.Surface,
+        events: list[pygame.event.Event],
+        collisions: list[str],
+    ):
+        entity_creation_request = None
         new_speed = self.speed
         for event in events:
             if event.type == pygame.KEYDOWN:
@@ -129,6 +136,11 @@ class PlayerEntity(MovingEntity):
                     self.left += 1
                 elif event.key == pygame.K_RIGHT:
                     self.right += 1
+                elif event.key == pygame.K_SPACE:
+                    entity_creation_request = EntityCreationRequest(
+                        name="Basic Projectile", spawn_point=self.current_point
+                    )
+
             elif event.type == pygame.KEYUP:
                 if event.key == pygame.K_DOWN:
                     self.down -= 1
@@ -169,4 +181,5 @@ class PlayerEntity(MovingEntity):
                 self.change_frame("Normal")
                 new_speed = [0, 0]
         self.change_speed_absolute(new_speed)
-        super().update(window, events)
+        super().update(window, events, collisions)
+        return False, entity_creation_request

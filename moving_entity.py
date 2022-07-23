@@ -1,4 +1,5 @@
 import pygame
+from entity_creation_request import EntityCreationRequest
 from pixel_entity import PixelEntity
 from pixel_frame import PixelFrame
 
@@ -25,9 +26,14 @@ class MovingEntity(PixelEntity):
         )
         self.speed = initial_speed
 
-    def update(self, window: pygame.Surface, events: list[pygame.event.Event]):
+    def update(
+        self,
+        window: pygame.Surface,
+        events: list[pygame.event.Event],
+        collisions: list[str],
+    ):
         self.move_relative(self.speed)
-        super().update(window, events)
+        super().update(window, events, collisions)
 
     def change_speed_relative(self, speed_change):
         self.speed[0] += speed_change[0]

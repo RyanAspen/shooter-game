@@ -12,7 +12,6 @@ class EntityCollisionManager:
 
     def __init__(self, entities: list[PixelEntity] = []):
         self.entities = entities
-        self.collisions = dict()
 
     def add_entity(self, entity: PixelEntity):
         self.entities.append(entity)
@@ -37,13 +36,7 @@ class EntityCollisionManager:
                                 new_collisions[entity2.id] = [entity1.name]
                             else:
                                 new_collisions[entity2.id].append(entity1.name)
-        self.collisions = new_collisions
-
-    def is_colliding_with_name(self, entity_id: int, collision_name: str = "ALL"):
-        for name in self.collisions[entity_id]:
-            if collision_name == "ALL" or collision_name == name:
-                return True
-        return False
+        return new_collisions
 
 
 def check_entities_close(entity1: PixelEntity, entity2: PixelEntity):

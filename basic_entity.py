@@ -1,5 +1,6 @@
 import random
 import pygame
+from entity_creation_request import EntityCreationRequest
 from moving_entity import MovingEntity
 from pixel_frame import PixelFrame
 
@@ -36,10 +37,19 @@ class BasicEntity(MovingEntity):
             starting_frame_key="Normal",
             name="Basic Entity",
             initial_speed=initial_speed,
-            layer_priority=1,
+            layer_priority=0,
         )
 
-    def update(self, window: pygame.Surface, events: list[pygame.event.Event]):
+    def update(
+        self,
+        window: pygame.Surface,
+        events: list[pygame.event.Event],
+        collisions: list[str],
+    ):
+        if self.is_colliding_with_name(collisions, "Basic Projectile"):
+            should_be_deleted = True
+        else:
+            should_be_deleted = False
         width = window.get_width()
         height = window.get_height()
         new_speed = self.speed
@@ -52,4 +62,5 @@ class BasicEntity(MovingEntity):
         elif self.current_point[1] > height:
             new_speed[1] = -abs(self.speed[1])
         self.change_speed_absolute(new_speed)
-        super().update(window, events)
+        super().update(window, events, collisions)
+        return should_be_deleted, None
