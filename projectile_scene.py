@@ -3,6 +3,7 @@ import random
 import pygame
 import constants
 from enemy_projectile import EnemyProjectile
+from pixel_entity import PixelEntity
 from scene import Scene
 
 speed = 100
@@ -17,8 +18,8 @@ class ProjectileScene(Scene):
         super().__init__(entity_dict, background_color)
 
 
-def get_enemy_projectile_entities(count):
-    entities = []
+def get_enemy_projectile_entities(count) -> list[PixelEntity]:
+    entities = []  # type: list[PixelEntity]
     for _ in range(count):
         spawn_point = [random.randint(0, constants.width), 0]
         entity = EnemyProjectile(spawn_point)

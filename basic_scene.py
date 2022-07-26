@@ -3,6 +3,7 @@ import random
 import pygame
 from basic_entity import BasicEntity
 import constants
+from pixel_entity import PixelEntity
 from scene import Scene
 
 speed = 1000
@@ -17,8 +18,8 @@ class BasicScene(Scene):
         super().__init__(entity_dict, background_color)
 
 
-def get_basic_entities(count):
-    entities = []
+def get_basic_entities(count) -> list[PixelEntity]:
+    entities = []  # type: list[PixelEntity]
     for _ in range(count):
         spawn_point = [
             random.randint(0, constants.width),

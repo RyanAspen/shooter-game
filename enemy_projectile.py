@@ -1,9 +1,11 @@
+from typing import Optional
 import pygame
+from entity_creation_request import EntityCreationRequest
 from moving_entity import MovingEntity
 from pixel_frame import PixelFrame
 import constants
 
-point = list[int, int]
+point = list[int]
 
 size = 5
 
@@ -35,7 +37,7 @@ class EnemyProjectile(MovingEntity):
                 pygame.Color(0, 255, 255),
             ),
         ]
-        hitboxes_exploding_1 = []
+        hitboxes_exploding_1 = []  # type: list[pygame.Rect]
         frame_exploding_1 = PixelFrame(
             visual_rects=visual_rects_exploding_1, hitboxes=hitboxes_exploding_1
         )
@@ -44,7 +46,7 @@ class EnemyProjectile(MovingEntity):
             (pygame.Rect(0, 0, size * 7, size * 7), pygame.Color(0, 100, 255)),
             (pygame.Rect(size, size, size * 5, size * 5), pygame.Color(0, 255, 255)),
         ]
-        hitboxes_exploding_2 = []
+        hitboxes_exploding_2 = []  # type: list[pygame.Rect]
         frame_exploding_2 = PixelFrame(
             visual_rects=visual_rects_exploding_2, hitboxes=hitboxes_exploding_2
         )
@@ -53,7 +55,7 @@ class EnemyProjectile(MovingEntity):
             (pygame.Rect(0, 0, size * 9, size * 9), pygame.Color(0, 100, 255)),
             (pygame.Rect(size, size, size * 7, size * 7), pygame.Color(0, 255, 255)),
         ]
-        hitboxes_exploding_3 = []
+        hitboxes_exploding_3 = []  # type: list[pygame.Rect]
         frame_exploding_3 = PixelFrame(
             visual_rects=visual_rects_exploding_3, hitboxes=hitboxes_exploding_3
         )
@@ -79,7 +81,7 @@ class EnemyProjectile(MovingEntity):
         window: pygame.Surface,
         events: list[pygame.event.Event],
         collisions: list[str],
-    ):
+    ) -> tuple[bool, Optional[EntityCreationRequest]]:
         should_delete = False
         if self.current_point[1] > constants.height:
 

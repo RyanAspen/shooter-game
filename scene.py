@@ -17,7 +17,7 @@ class Scene:
         self.time_elapsed = 0
         self.background_color = background_color
 
-    def update_entities_to_spawn(self):
+    def update_entities_to_spawn(self) -> tuple[list[PixelEntity], bool]:
         if self.time_elapsed <= self.duration:
             if self.time_elapsed in self.entity_dict:
                 entities = self.entity_dict[self.time_elapsed]
@@ -30,5 +30,5 @@ class Scene:
             still_active = False
         return entities, still_active
 
-    def is_complete(self):
+    def is_complete(self) -> bool:
         return self.time_elapsed > self.duration

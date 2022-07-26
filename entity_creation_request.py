@@ -1,4 +1,4 @@
-point = list[int, int]
+point = list[int]
 
 
 class EntityCreationRequest:

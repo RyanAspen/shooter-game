@@ -1,8 +1,8 @@
 import pygame
 from pixel_frame import PixelFrame
 
-point = list[int, int]
-speed = list[int, int]
+point = list[int]
+speed = list[int]
 
 
 class PixelEntity:
@@ -112,7 +112,7 @@ class PixelEntity:
         self,
         collisions: list[str],
         collision_name: str = "ALL",
-    ):
+    ) -> bool:
         for name in collisions:
             if collision_name == "ALL" or collision_name == name:
                 return True

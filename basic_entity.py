@@ -3,8 +3,9 @@ import pygame
 from entity_creation_request import EntityCreationRequest
 from moving_entity import MovingEntity
 from pixel_frame import PixelFrame
+from typing import Optional
 
-point = list[int, int]
+point = list[int]
 
 size = 20
 
@@ -45,7 +46,7 @@ class BasicEntity(MovingEntity):
         window: pygame.Surface,
         events: list[pygame.event.Event],
         collisions: list[str],
-    ):
+    ) -> tuple[bool, Optional[EntityCreationRequest]]:
         if self.is_colliding_with_name(collisions, "Basic Projectile"):
             should_be_deleted = True
         else:

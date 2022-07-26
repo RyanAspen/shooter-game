@@ -1,5 +1,5 @@
+from typing import TypeVar
 import constants
-import random
 import sys
 import time
 import pygame
@@ -11,19 +11,21 @@ from pixel_entity import PixelEntity
 from player_entity import PlayerEntity
 from scene import Scene
 
+E = TypeVar("E", bound=PixelEntity)
+
 
 class Screen:
     def __init__(self, scenes: list[Scene]):
         pygame.init()
         size = constants.width, constants.height
         self.window = pygame.display.set_mode(size)
-        self.entities = list()
+        self.entities = []  # type: list[PixelEntity]
 
         self.scenes = scenes
 
         self.active_scene = None
 
-        player = PlayerEntity([constants.width / 2, constants.height - 20])
+        player = PlayerEntity([int(constants.width / 2), int(constants.height - 20)])
         self.entities.append(player)
         player.spawn()
 
@@ -85,13 +87,13 @@ class Screen:
         elif request.name == "Player Entity":
             self.add_entity(PlayerEntity(request.spawn_point))
 
-    def add_entity(self, entity: PixelEntity):
+    def add_entity(self, entity: E):
         self.entities.append(entity)
         self.entities = sort_entities_by_layer_priority(self.entities)
         self.collision_manager.add_entity(entity)
         entity.spawn()
 
-    def add_entities(self, entities: list[PixelEntity]):
+    def add_entities(self, entities: list[E]):
         self.entities += entities
         self.entities = sort_entities_by_layer_priority(self.entities)
         for entity in entities:
@@ -112,6 +114,6 @@ class Screen:
         return True
 
 
-def sort_entities_by_layer_priority(entities: list[PixelEntity]):
+def sort_entities_by_layer_priority(entities: list[E]):
     entities.sort(key=lambda x: x.layer_priority)
     return entities

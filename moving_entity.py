@@ -3,8 +3,8 @@ from entity_creation_request import EntityCreationRequest
 from pixel_entity import PixelEntity
 from pixel_frame import PixelFrame
 
-speed = list[int, int]
-point = list[int, int]
+speed = list[int]
+point = list[int]
 
 
 class MovingEntity(PixelEntity):

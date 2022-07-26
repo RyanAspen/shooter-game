@@ -1,10 +1,11 @@
+from typing import Optional
 import pygame
 from basic_projectile import BasicProjectile
 from entity_creation_request import EntityCreationRequest
 from moving_entity import MovingEntity
 from pixel_frame import PixelFrame
 
-point = list[int, int]
+point = list[int]
 
 size = 10
 speed_scale = 5
@@ -123,7 +124,7 @@ class PlayerEntity(MovingEntity):
         window: pygame.Surface,
         events: list[pygame.event.Event],
         collisions: list[str],
-    ):
+    ) -> tuple[bool, Optional[EntityCreationRequest]]:
         if self.is_colliding_with_name(collisions, "Enemy Projectile"):
             should_be_deleted = True
         else:
