@@ -51,9 +51,8 @@ def check_entities_close(entity1: E, entity2: E) -> bool:
 
 def are_colliding(entity_1: PixelEntity, entity_2: PixelEntity) -> bool:
     for rect1 in entity_1.current_frame.hitboxes:
-        for rect2 in entity_2.current_frame.hitboxes:
-            if rect1.colliderect(rect2):
-                return True
+        if rect1.collidelist(entity_2.current_frame.hitboxes) != -1:
+            return True
     return False
 
 
