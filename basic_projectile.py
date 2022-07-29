@@ -1,6 +1,6 @@
 import pygame
 from entity_creation_request import EntityCreationRequest
-from moving_entity import MovingEntity
+from pixel_entity import PixelEntity
 from pixel_frame import PixelFrame
 from typing import Optional
 
@@ -9,7 +9,7 @@ point = list[int]
 size = 10
 
 
-class BasicProjectile(MovingEntity):
+class BasicProjectile(PixelEntity):
 
     """
     PlayerEntity is an entity that is controlled by user input
@@ -81,10 +81,8 @@ class BasicProjectile(MovingEntity):
         events: list[pygame.event.Event],
         collisions: list[str],
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
-        should_delete = False
-        if self.current_point[1] < 0:
 
-            should_delete = True
+        should_delete, _ = self.handle_attributes(window, events, collisions)
         if self.explosion_stage == 0 and self.is_colliding_with_name(
             collisions, "Basic Entity"
         ):
@@ -105,5 +103,6 @@ class BasicProjectile(MovingEntity):
                         self.change_frame("Exploding/3")
             else:
                 self.explosion_time -= 1
-        super().update(window, events, collisions)
-        return should_delete, None
+        self.should_delete = should_delete
+        self.entity_creation_request = None
+        return super().update(window, events, collisions)

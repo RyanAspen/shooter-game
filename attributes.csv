@@ -1,0 +1,6 @@
+﻿name,rigid_body,constrained_to_screen,destroyed_off_screen,gravity
+Basic Entity,,x,,
+Basic Projectile,,,x,
+Enemy Entity,x,x,,
+Enemy Projectile,,,x,
+Player Entity,,x,,

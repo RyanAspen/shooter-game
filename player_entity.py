@@ -1,8 +1,7 @@
 from typing import Optional
 import pygame
-from basic_projectile import BasicProjectile
 from entity_creation_request import EntityCreationRequest
-from moving_entity import MovingEntity
+from pixel_entity import PixelEntity
 from pixel_frame import PixelFrame
 
 point = list[int]
@@ -11,7 +10,7 @@ size = 10
 speed_scale = 5
 
 
-class PlayerEntity(MovingEntity):
+class PlayerEntity(PixelEntity):
 
     """
     PlayerEntity is an entity that is controlled by user input
@@ -125,6 +124,9 @@ class PlayerEntity(MovingEntity):
         events: list[pygame.event.Event],
         collisions: list[str],
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
+        should_be_deleted, _ = self.handle_attributes(
+            window, events, collisions
+        )
         if self.is_colliding_with_name(collisions, "Enemy Projectile"):
             should_be_deleted = True
         else:
@@ -186,5 +188,6 @@ class PlayerEntity(MovingEntity):
                 self.change_frame("Normal")
                 new_speed = [0, 0]
         self.change_speed_absolute(new_speed)
-        super().update(window, events, collisions)
-        return should_be_deleted, entity_creation_request
+        self.should_delete = should_be_deleted
+        self.entity_creation_request = entity_creation_request
+        return super().update(window, events, collisions)

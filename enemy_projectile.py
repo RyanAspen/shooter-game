@@ -1,7 +1,7 @@
 from typing import Optional
 import pygame
 from entity_creation_request import EntityCreationRequest
-from moving_entity import MovingEntity
+from pixel_entity import PixelEntity
 from pixel_frame import PixelFrame
 import constants
 
@@ -10,7 +10,7 @@ point = list[int]
 size = 5
 
 
-class EnemyProjectile(MovingEntity):
+class EnemyProjectile(PixelEntity):
 
     """
     PlayerEntity is an entity that is controlled by user input
@@ -82,7 +82,7 @@ class EnemyProjectile(MovingEntity):
         events: list[pygame.event.Event],
         collisions: list[str],
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
-        should_delete = False
+        should_delete, _ = self.handle_attributes(window, events, collisions)
         if self.current_point[1] > constants.height:
 
             should_delete = True
@@ -106,5 +106,6 @@ class EnemyProjectile(MovingEntity):
                         self.change_frame("Exploding/3")
             else:
                 self.explosion_time -= 1
-        super().update(window, events, collisions)
-        return should_delete, None
+        self.should_delete = should_delete
+        self.entity_creation_request = None
+        return super().update(window, events, collisions)

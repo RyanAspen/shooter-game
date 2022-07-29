@@ -1,6 +1,6 @@
-from moving_entity import MovingEntity
+from pixel_entity import PixelEntity
 
 
-class EnemyEntity(MovingEntity):
+class EnemyEntity(PixelEntity):
     def __init__(self):
         pass

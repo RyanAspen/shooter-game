@@ -64,6 +64,8 @@ class Screen:
         self.add_entities(new_entities)
 
         for entity in self.entities:
+            old_point = entity.current_point.copy()
+
             if entity.id in collisions:
                 entity_collisions = collisions[entity.id]
             else:
@@ -75,6 +77,8 @@ class Screen:
                 self.remove_entity(entity)
             if entity_creation_request is not None:
                 self.process_entity_creation_request(entity_creation_request)
+
+            entity.previous_point = old_point
 
         pygame.display.flip()  # Use .update instead for more optimization
         time.sleep(0.01)
