@@ -1,7 +1,7 @@
 import random
 import pygame
 from entity_creation_request import EntityCreationRequest
-from moving_entity import MovingEntity
+from pixel_entity import PixelEntity
 from pixel_frame import PixelFrame
 from typing import Optional
 
@@ -10,7 +10,7 @@ point = list[int]
 size = 20
 
 
-class BasicEntity(MovingEntity):
+class BasicEntity(PixelEntity):
 
     """
     BasicEntity is a PixelEntity that is just a white square with no other PixelFrames
@@ -47,21 +47,9 @@ class BasicEntity(MovingEntity):
         events: list[pygame.event.Event],
         collisions: list[str],
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
+        self.handle_attributes(window, events, collisions)
         if self.is_colliding_with_name(collisions, "Basic Projectile"):
-            should_be_deleted = True
+            self.should_delete = True
         else:
-            should_be_deleted = False
-        width = window.get_width()
-        height = window.get_height()
-        new_speed = self.speed
-        if self.current_point[0] < 0:
-            new_speed[0] = abs(self.speed[0])
-        elif self.current_point[0] > width:
-            new_speed[0] = -abs(self.speed[0])
-        if self.current_point[1] < 0:
-            new_speed[1] = abs(self.speed[1])
-        elif self.current_point[1] > height:
-            new_speed[1] = -abs(self.speed[1])
-        self.change_speed_absolute(new_speed)
-        super().update(window, events, collisions)
-        return should_be_deleted, None
+            self.should_delete = False
+        return super().update(window, events, collisions)
