@@ -45,9 +45,8 @@ class BasicEntity(PixelEntity):
         self,
         window: pygame.Surface,
         events: list[pygame.event.Event],
-        collisions: list[str],
+        collisions: list[tuple[str, point, point]],
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
-        self.handle_attributes(window, events, collisions)
         if self.is_colliding_with_name(collisions, "Basic Projectile"):
             self.should_delete = True
         else:

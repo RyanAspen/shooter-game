@@ -122,11 +122,8 @@ class PlayerEntity(PixelEntity):
         self,
         window: pygame.Surface,
         events: list[pygame.event.Event],
-        collisions: list[str],
+        collisions: list[tuple[str, point, point]],
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
-        should_be_deleted, _ = self.handle_attributes(
-            window, events, collisions
-        )
         if self.is_colliding_with_name(collisions, "Enemy Projectile"):
             should_be_deleted = True
         else:

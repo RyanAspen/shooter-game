@@ -80,9 +80,9 @@ class EnemyProjectile(PixelEntity):
         self,
         window: pygame.Surface,
         events: list[pygame.event.Event],
-        collisions: list[str],
+        collisions: list[tuple[str, point, point]],
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
-        should_delete, _ = self.handle_attributes(window, events, collisions)
+
         if self.current_point[1] > constants.height:
 
             should_delete = True
@@ -106,6 +106,7 @@ class EnemyProjectile(PixelEntity):
                         self.change_frame("Exploding/3")
             else:
                 self.explosion_time -= 1
+
         self.should_delete = should_delete
         self.entity_creation_request = None
         return super().update(window, events, collisions)

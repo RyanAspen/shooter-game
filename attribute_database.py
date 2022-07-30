@@ -11,7 +11,6 @@ class AttributeDatabase:
         for _, row in attribute_df.iterrows():
             entity_name = row["name"]
             dict_for_name = dict()
-            print(row.to_dict())
             for attribute in row.to_dict().keys():
                 if attribute != "name":
                     self.attribute_list.append(attribute)

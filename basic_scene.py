@@ -6,7 +6,7 @@ import constants
 from pixel_entity import PixelEntity
 from scene import Scene
 
-speed = 1000
+speed = 100000
 
 
 class BasicScene(Scene):
@@ -14,7 +14,7 @@ class BasicScene(Scene):
         background_color = pygame.Color(0, 20, 200)
         entity_dict = dict()
         for time in range(0, speed * 5 + 1, speed):
-            entity_dict[time] = get_basic_entities(25)
+            entity_dict[time] = get_basic_entities(15)
         super().__init__(entity_dict, background_color)
 
 

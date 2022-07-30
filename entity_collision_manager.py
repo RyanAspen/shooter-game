@@ -6,6 +6,8 @@ max_dist = 50
 
 E = TypeVar("E", bound=PixelEntity)
 
+point = list[int]
+
 
 class EntityCollisionManager:
 
@@ -24,21 +26,29 @@ class EntityCollisionManager:
 
     # Returns a dictionary where keys are entity ids and values are lists of entity names that collide with the entity from the id
     # Run this once per frame
-    def update_collisions(self) -> dict[int, list[str]]:
+    def update_collisions(self) -> dict[int, list[tuple[str, point]]]:
         new_collisions = dict()
         for entity1 in self.entities:
             for entity2 in self.entities:
                 if are_different(entity1, entity2):
                     if check_entities_close(entity1, entity2):
                         if are_colliding(entity1, entity2):
+                            collision_tuple_1 = (
+                                entity2.name,
+                                entity2.current_point,
+                            )
+                            collision_tuple_2 = (
+                                entity1.name,
+                                entity1.current_point,
+                            )
                             if entity1 not in new_collisions:
-                                new_collisions[entity1.id] = [entity2.name]
+                                new_collisions[entity1.id] = [collision_tuple_1]
                             else:
-                                new_collisions[entity1.id].append(entity2.name)
+                                new_collisions[entity1.id].append(collision_tuple_1)
                             if entity2 not in new_collisions:
-                                new_collisions[entity2.id] = [entity1.name]
+                                new_collisions[entity2.id] = [collision_tuple_2]
                             else:
-                                new_collisions[entity2.id].append(entity1.name)
+                                new_collisions[entity2.id].append(collision_tuple_2)
         return new_collisions
 
 
