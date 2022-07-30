@@ -83,8 +83,10 @@ class PixelEntity:
             rect.top += movement[1]
 
     def move_absolute(self, new_location: point):
-        self.diff = tuple(map(lambda i, j: i - j, new_location, self.current_point))
-        self.move_relative(self.diff)
+        diff = [0, 0]
+        diff[0] = new_location[0] - self.current_point[0]
+        diff[1] = new_location[1] - self.current_point[1]
+        self.move_relative(diff)
 
     def revert_to_previous_position(self):
         self.move_absolute(self.previous_point)
@@ -119,26 +121,6 @@ class PixelEntity:
     def draw(self, window: pygame.Surface):
         for rect, color in self.current_frame.visual_rects:
             pygame.draw.rect(window, color, rect)
-
-    def update(
-        self,
-        window: pygame.Surface,
-        events: list[pygame.event.Event],
-        collisions: list[tuple[str, point]],
-    ) -> tuple[bool, Optional[EntityCreationRequest]]:
-        if self.frozen:
-            self.frozen = False
-        else:
-            self.move_relative(self.speed)
-        new_should_be_deleted, entity_creation_request = self.handle_attributes(
-            window, events, collisions
-        )
-        if new_should_be_deleted:
-            self.should_delete = True
-        if entity_creation_request is not None:
-            self.entity_creation_request
-        self.draw(window)
-        return self.should_delete, self.entity_creation_request
 
     def handle_attributes(
         self,

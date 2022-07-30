@@ -50,7 +50,6 @@ class Scene:
                 particles = self.particle_dict[self.time_elapsed]
             else:
                 particles = []
-            self.time_elapsed += 1
             still_active = True
         else:
             particles = []

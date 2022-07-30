@@ -31,38 +31,31 @@ class EntityCollisionManager:
         for entity1 in self.entities:
             for entity2 in self.entities:
                 if are_different(entity1, entity2):
-                    if check_entities_close(entity1, entity2):
-                        if are_colliding(entity1, entity2):
-                            collision_tuple_1 = (
-                                entity2.name,
-                                entity2.current_point,
-                            )
-                            collision_tuple_2 = (
-                                entity1.name,
-                                entity1.current_point,
-                            )
-                            if entity1 not in new_collisions:
-                                new_collisions[entity1.id] = [collision_tuple_1]
-                            else:
-                                new_collisions[entity1.id].append(collision_tuple_1)
-                            if entity2 not in new_collisions:
-                                new_collisions[entity2.id] = [collision_tuple_2]
-                            else:
-                                new_collisions[entity2.id].append(collision_tuple_2)
+                    if are_colliding(entity1, entity2):
+                        collision_tuple_1 = (
+                            entity2.name,
+                            entity2.current_point,
+                        )
+                        collision_tuple_2 = (
+                            entity1.name,
+                            entity1.current_point,
+                        )
+                        if entity1 not in new_collisions:
+                            new_collisions[entity1.id] = [collision_tuple_1]
+                        else:
+                            new_collisions[entity1.id].append(collision_tuple_1)
+                        if entity2 not in new_collisions:
+                            new_collisions[entity2.id] = [collision_tuple_2]
+                        else:
+                            new_collisions[entity2.id].append(collision_tuple_2)
         return new_collisions
-
-
-def check_entities_close(entity1: E, entity2: E) -> bool:
-    x_diff = entity2.current_point[0] - entity1.current_point[0]
-    y_diff = entity2.current_point[1] - entity1.current_point[1]
-    dist = math.sqrt(x_diff * x_diff + y_diff * y_diff)
-    return dist < max_dist
 
 
 def are_colliding(entity_1: PixelEntity, entity_2: PixelEntity) -> bool:
     for rect1 in entity_1.current_frame.hitboxes:
-        if rect1.collidelist(entity_2.current_frame.hitboxes) != -1:
-            return True
+        for rect2 in entity_2.current_frame.hitboxes:
+            if rect1.colliderect(rect2):
+                return True
     return False
 
 

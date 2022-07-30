@@ -141,8 +141,11 @@ class PlayerEntity(PixelEntity):
                 elif event.key == pygame.K_RIGHT:
                     self.right += 1
                 elif event.key == pygame.K_SPACE:
+                    projectile_spawn_point = self.current_point.copy()
+                    projectile_spawn_point[0] += 5
+                    projectile_spawn_point[1] -= 15
                     entity_creation_request = EntityCreationRequest(
-                        name="Basic Projectile", spawn_point=self.current_point
+                        name="Basic Projectile", spawn_point=projectile_spawn_point
                     )
 
             elif event.type == pygame.KEYUP:
@@ -187,4 +190,12 @@ class PlayerEntity(PixelEntity):
         self.change_speed_absolute(new_speed)
         self.should_delete = should_be_deleted
         self.entity_creation_request = entity_creation_request
-        return super().update(window, events, collisions)
+        self.move_relative(self.speed)
+        new_should_delete, new_entity_creation_request = self.handle_attributes(
+            window, events, collisions
+        )
+        if new_should_delete:
+            self.should_delete = True
+        if new_entity_creation_request is not None:
+            self.entity_creation_request = new_entity_creation_request
+        self.draw(window)

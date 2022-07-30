@@ -20,9 +20,14 @@ class BasicProjectile(PixelEntity):
         self.explosion_stage = 0
         self.counting_down = False
 
+        """
         visual_rects_normal = [
             (pygame.Rect(0, 0, size, size * 2), pygame.Color(0, 255, 0)),
             (pygame.Rect(0, size * 2, size, size * 3), pygame.Color(255, 0, 0)),
+        ]
+        """
+        visual_rects_normal = [
+            (pygame.Rect(0, 0, size * 2, size * 2), pygame.Color(0, 255, 0)),
         ]
         hitboxes_normal = [pygame.Rect(0, 0, size * 2, size * 2)]
         frame_normal = PixelFrame(
@@ -78,19 +83,22 @@ class BasicProjectile(PixelEntity):
     def update(
         self,
         window: pygame.Surface,
-        events: list[pygame.event.Event],
-        collisions: list[tuple[str, point, point]],
-    ) -> tuple[bool, Optional[EntityCreationRequest]]:
-        should_delete = False
+        events: list[pygame.event.Event] = [],
+        collisions: list[tuple[str, point, point]] = [],
+    ):
         if self.explosion_stage == 0 and self.is_colliding_with_name(
             collisions, "Basic Entity"
+        ):
+            self.counting_down = True
+        if self.explosion_stage == 0 and self.is_colliding_with_name(
+            collisions, "Target Entity"
         ):
             self.counting_down = True
         if self.counting_down:
             self.change_speed_absolute([0, 0])
             if self.explosion_time <= 0:
                 if self.explosion_stage >= 3:
-                    should_delete = True
+                    self.should_delete = True
                 else:
                     self.explosion_stage += 1
                     self.explosion_time = 10
@@ -102,6 +110,12 @@ class BasicProjectile(PixelEntity):
                         self.change_frame("Exploding/3")
             else:
                 self.explosion_time -= 1
-        self.should_delete = should_delete
-        self.entity_creation_request = None
-        return super().update(window, events, collisions)
+        self.move_relative(self.speed)
+        new_should_delete, new_entity_creation_request = self.handle_attributes(
+            window, events, collisions
+        )
+        if new_should_delete:
+            self.should_delete = True
+        if new_entity_creation_request is not None:
+            self.entity_creation_request = new_entity_creation_request
+        self.draw(window)

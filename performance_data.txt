@@ -1,0 +1,3751 @@
+Beginning of debug
+Update #1
+Full update time = 0.0019953250885009766
+Logic update time = 0.0009958744049072266
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #2
+Full update time = 0.003000974655151367
+Logic update time = 0.0010004043579101562
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #3
+Full update time = 0.0010001659393310547
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #4
+Full update time = 0.0009970664978027344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #5
+Full update time = 0.0009775161743164062
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #6
+Full update time = 0.0009253025054931641
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #7
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #8
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #9
+Full update time = 0.001996755599975586
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #10
+Full update time = 0.0009989738464355469
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #11
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #12
+Full update time = 0.0039823055267333984
+Logic update time = 0.0009875297546386719
+For loop update time = 0.0009875297546386719
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #13
+Full update time = 0.0009996891021728516
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #14
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #15
+Full update time = 0.0010027885437011719
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #16
+Full update time = 0.002012014389038086
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #17
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #18
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #19
+Full update time = 0.0020246505737304688
+Logic update time = 0.0010113716125488281
+For loop update time = 0.0010113716125488281
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #20
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #21
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #22
+Full update time = 0.002005338668823242
+Logic update time = 0.0010075569152832031
+For loop update time = 0.0010075569152832031
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #23
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #24
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #25
+Full update time = 0.002923250198364258
+Logic update time = 0.0009348392486572266
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0009348392486572266
+Update #26
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #27
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #28
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #29
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #30
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #31
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #32
+Full update time = 0.0009968280792236328
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #33
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #34
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #35
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #36
+Full update time = 0.0010058879852294922
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #37
+Full update time = 0.0010135173797607422
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #38
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #39
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #40
+Full update time = 0.002003908157348633
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #41
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #42
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #43
+Full update time = 0.002007007598876953
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #44
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #45
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #46
+Full update time = 0.0009987354278564453
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #47
+Full update time = 0.000997304916381836
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #48
+Full update time = 0.001993894577026367
+Logic update time = 0.0009975433349609375
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #49
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #50
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #51
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #52
+Full update time = 0.0010058879852294922
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #53
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #54
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #55
+Full update time = 0.0029916763305664062
+Logic update time = 0.0019943714141845703
+For loop update time = 0.0009965896606445312
+Events handling update time = 0.0
+Collisions handling update time = 0.000997781753540039
+Update #56
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #57
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #58
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #59
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #60
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #61
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #62
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #63
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #64
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #65
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #66
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #67
+Full update time = 0.0010006427764892578
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #68
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #69
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #70
+Full update time = 0.0029697418212890625
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #71
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #72
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #73
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #74
+Full update time = 0.0009875297546386719
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #75
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #76
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #77
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #78
+Full update time = 0.0009951591491699219
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #79
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #80
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #81
+Full update time = 0.0010004043579101562
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #82
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #83
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #84
+Full update time = 0.0020041465759277344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #85
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #86
+Full update time = 0.0009975433349609375
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #87
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #88
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #89
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #90
+Full update time = 0.0009527206420898438
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #91
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #92
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #93
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #94
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #95
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #96
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #97
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #98
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #99
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #100
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #101
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #102
+Full update time = 0.001001596450805664
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #103
+Full update time = 0.0009944438934326172
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #104
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #105
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #106
+Full update time = 0.0009958744049072266
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #107
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #108
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #109
+Full update time = 0.0010008811950683594
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #110
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #111
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #112
+Full update time = 0.0009968280792236328
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #113
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #114
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #115
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #116
+Full update time = 0.001992940902709961
+Logic update time = 0.0009949207305908203
+For loop update time = 0.0009949207305908203
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #117
+Full update time = 0.000997304916381836
+Logic update time = 0.000997304916381836
+For loop update time = 0.000997304916381836
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #118
+Full update time = 0.0019941329956054688
+Logic update time = 0.001056671142578125
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #119
+Full update time = 0.000965118408203125
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #120
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #121
+Full update time = 0.0009582042694091797
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #122
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #123
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #124
+Full update time = 0.001995086669921875
+Logic update time = 0.0010030269622802734
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #125
+Full update time = 0.0009987354278564453
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #126
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #127
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #128
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #129
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #130
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #131
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #132
+Full update time = 0.0009930133819580078
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #133
+Full update time = 0.0009999275207519531
+Logic update time = 0.0009999275207519531
+For loop update time = 0.0009999275207519531
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #134
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #135
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #136
+Full update time = 0.0009982585906982422
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #137
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #138
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #139
+Full update time = 0.0009992122650146484
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #140
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #141
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #142
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #143
+Full update time = 0.0029914379119873047
+Logic update time = 0.0009963512420654297
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #144
+Full update time = 0.0010025501251220703
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #145
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #146
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #147
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #148
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #149
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #150
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #151
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #152
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #153
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #154
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #155
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #156
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #157
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #158
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #159
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #160
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #161
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #162
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #163
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #164
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #165
+Full update time = 0.0009970664978027344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #166
+Full update time = 0.0009927749633789062
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #167
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #168
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #169
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #170
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #171
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #172
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #173
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #174
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #175
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #176
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #177
+Full update time = 0.0010039806365966797
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #178
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #179
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #180
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #181
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #182
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #183
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #184
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #185
+Full update time = 0.0010051727294921875
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #186
+Full update time = 0.0009984970092773438
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #187
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #188
+Full update time = 0.002000093460083008
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #189
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #190
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #191
+Full update time = 0.0010020732879638672
+Logic update time = 0.0010020732879638672
+For loop update time = 0.0010020732879638672
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #192
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #193
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #194
+Full update time = 0.0009622573852539062
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #195
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #196
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #197
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #198
+Full update time = 0.001995563507080078
+Logic update time = 0.0009958744049072266
+For loop update time = 0.0009958744049072266
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #199
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #200
+Full update time = 0.0010023117065429688
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #201
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #202
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #203
+Full update time = 0.001994609832763672
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #204
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #205
+Full update time = 0.0009982585906982422
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #206
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #207
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #208
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #209
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #210
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #211
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #212
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #213
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #214
+Full update time = 0.0009989738464355469
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #215
+Full update time = 0.0019941329956054688
+Logic update time = 0.0009963512420654297
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #216
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #217
+Full update time = 0.0009949207305908203
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #218
+Full update time = 0.0019991397857666016
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #219
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #220
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #221
+Full update time = 0.0009639263153076172
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #222
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #223
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #224
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #225
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #226
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #227
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #228
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #229
+Full update time = 0.001001119613647461
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #230
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #231
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #232
+Full update time = 0.00099945068359375
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #233
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #234
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #235
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #236
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #237
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #238
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #239
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #240
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #241
+Full update time = 0.0009963512420654297
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #242
+Full update time = 0.0009961128234863281
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #243
+Full update time = 0.0019941329956054688
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #244
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #245
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #246
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #247
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #248
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #249
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #250
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #251
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #252
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #253
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #254
+Full update time = 0.0010025501251220703
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #255
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #256
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #257
+Full update time = 0.0009989738464355469
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #258
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #259
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #260
+Full update time = 0.0009944438934326172
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #261
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #262
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #263
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #264
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #265
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #266
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #267
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #268
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #269
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #270
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #271
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #272
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #273
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #274
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #275
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #276
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #277
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #278
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #279
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #280
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #281
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #282
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #283
+Full update time = 0.002004384994506836
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #284
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #285
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #286
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #287
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #288
+Full update time = 0.0009989738464355469
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #289
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #290
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #291
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #292
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #293
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #294
+Full update time = 0.0009958744049072266
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #295
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #296
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #297
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #298
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #299
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #300
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #301
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #302
+Full update time = 0.0020024776458740234
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #303
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #304
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #305
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #306
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #307
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #308
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #309
+Full update time = 0.0009970664978027344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #310
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #311
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #312
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #313
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #314
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #315
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #316
+Full update time = 0.0009984970092773438
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #317
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #318
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #319
+Full update time = 0.0010056495666503906
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #320
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #321
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #322
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #323
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #324
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #325
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #326
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #327
+Full update time = 0.0009996891021728516
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #328
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #329
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #330
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #331
+Full update time = 0.0005102157592773438
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #332
+Full update time = 0.0009970664978027344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #333
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #334
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #335
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #336
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #337
+Full update time = 0.0009965896606445312
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #338
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #339
+Full update time = 0.0010290145874023438
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #340
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #341
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #342
+Full update time = 0.0009968280792236328
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #343
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #344
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #345
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #346
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #347
+Full update time = 0.0009968280792236328
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #348
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #349
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #350
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #351
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #352
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #353
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #354
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #355
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #356
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #357
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #358
+Full update time = 0.0009970664978027344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #359
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #360
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #361
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #362
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #363
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #364
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #365
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #366
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #367
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #368
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #369
+Full update time = 0.0010008811950683594
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #370
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #371
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #372
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #373
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #374
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #375
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #376
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #377
+Full update time = 0.0019352436065673828
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #378
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #379
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #380
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #381
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #382
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #383
+Full update time = 0.0009987354278564453
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #384
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #385
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #386
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #387
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #388
+Full update time = 0.001007080078125
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #389
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #390
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #391
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #392
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #393
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #394
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #395
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #396
+Full update time = 0.002003908157348633
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #397
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #398
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #399
+Full update time = 0.0010042190551757812
+Logic update time = 0.0010042190551757812
+For loop update time = 0.0010042190551757812
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #400
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #401
+Full update time = 0.0009970664978027344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #402
+Full update time = 0.000997781753540039
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #403
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #404
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #405
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #406
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #407
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #408
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #409
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #410
+Full update time = 0.0009996891021728516
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #411
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #412
+Full update time = 0.0010035037994384766
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #413
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #414
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #415
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #416
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #417
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #418
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #419
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #420
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #421
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #422
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #423
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #424
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #425
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #426
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #427
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #428
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #429
+Full update time = 0.0020024776458740234
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #430
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #431
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #432
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #433
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #434
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #435
+Full update time = 0.0009982585906982422
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #436
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #437
+Full update time = 0.000997304916381836
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #438
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #439
+Full update time = 0.0009961128234863281
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #440
+Full update time = 0.0008678436279296875
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #441
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #442
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #443
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #444
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #445
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #446
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #447
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #448
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #449
+Full update time = 0.001001596450805664
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #450
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #451
+Full update time = 0.0009970664978027344
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #452
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #453
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #454
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #455
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #456
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #457
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #458
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #459
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #460
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #461
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #462
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #463
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #464
+Full update time = 0.0010006427764892578
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #465
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #466
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #467
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #468
+Full update time = 0.000997304916381836
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #469
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #470
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #471
+Full update time = 0.002008199691772461
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #472
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #473
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #474
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #475
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #476
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #477
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #478
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #479
+Full update time = 0.0010042190551757812
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #480
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #481
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #482
+Full update time = 0.001004934310913086
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #483
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #484
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #485
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #486
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #487
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #488
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #489
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #490
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #491
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #492
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #493
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #494
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #495
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #496
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #497
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #498
+Full update time = 0.0009987354278564453
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #499
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #500
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #501
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #502
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #503
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #504
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #505
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #506
+Full update time = 0.0010035037994384766
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #507
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #508
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #509
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #510
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #511
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #512
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #513
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #514
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #515
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #516
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #517
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #518
+Full update time = 0.0009701251983642578
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #519
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #520
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #521
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #522
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #523
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #524
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #525
+Full update time = 0.0010020732879638672
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #526
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #527
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #528
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #529
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #530
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #531
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #532
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #533
+Full update time = 0.002005338668823242
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #534
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #535
+Full update time = 0.0009965896606445312
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #536
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #537
+Full update time = 0.0009980201721191406
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #538
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #539
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #540
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #541
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #542
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #543
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #544
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #545
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #546
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #547
+Full update time = 0.0009992122650146484
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #548
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #549
+Full update time = 0.0009975433349609375
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #550
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #551
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #552
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #553
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #554
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #555
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #556
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #557
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #558
+Full update time = 0.0010013580322265625
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #559
+Full update time = 0.0009987354278564453
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #560
+Full update time = 0.0009968280792236328
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #561
+Full update time = 0.0009908676147460938
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #562
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #563
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #564
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #565
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #566
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #567
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #568
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #569
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #570
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #571
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #572
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #573
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #574
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #575
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #576
+Full update time = 0.0009899139404296875
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #577
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #578
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #579
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #580
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #581
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #582
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #583
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #584
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #585
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #586
+Full update time = 0.001995563507080078
+Logic update time = 0.0009965896606445312
+For loop update time = 0.0009965896606445312
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #587
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #588
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #589
+Full update time = 0.0009987354278564453
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #590
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #591
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #592
+Full update time = 0.0010039806365966797
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #593
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #594
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #595
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #596
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #597
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #598
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #599
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #600
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #601
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #602
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #603
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #604
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #605
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #606
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #607
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #608
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #609
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #610
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #611
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #612
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #613
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #614
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #615
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #616
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #617
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #618
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #619
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #620
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #621
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #622
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #623
+Full update time = 0.002004384994506836
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #624
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0
+Update #625
+Full update time = 0.0
+Logic update time = 0.0
+For loop update time = 0.0
+Events handling update time = 0.0
+Collisions handling update time = 0.0

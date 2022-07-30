@@ -33,7 +33,7 @@ class Screen:
         self.debug_file_name = "performance_data.txt"
         if os.path.exists(os.path.join(os.getcwd(), self.debug_file_name)):
             os.remove(os.path.join(os.getcwd(), self.debug_file_name))
-        self.debug_file = open(self.debug_file_name, "w")
+        self.debug_file = open(os.path.join(os.getcwd(), self.debug_file_name), "w")
 
         self.debug_file.write("Beginning of debug\n")
 
@@ -88,13 +88,11 @@ class Screen:
                 entity_collisions = collisions[entity.id]
             else:
                 entity_collisions = []
-            should_delete, entity_creation_request = entity.update(
-                self.window, events, entity_collisions
-            )
-            if should_delete:
+            entity.update(self.window, events, entity_collisions)
+            if entity.should_delete:
                 self.remove_entity(entity)
-            if entity_creation_request is not None:
-                self.process_entity_creation_request(entity_creation_request)
+            if entity.entity_creation_request is not None:
+                self.process_entity_creation_request(entity.entity_creation_request)
 
             entity.previous_point = old_point
 
@@ -160,6 +158,7 @@ class Screen:
 
     def remove_entity(self, entity: PixelEntity):
         self.entities.remove(entity)
+        self.collision_manager.remove_entity(entity)
 
     def are_no_enemies(self):
         for entity in self.entities:

@@ -1,30 +1,31 @@
+import math
 import random
 
 import pygame
-from basic_entity import BasicEntity
 import constants
 from pixel_entity import PixelEntity
 from scene import Scene
+from target_entity import TargetEntity
 
 speed = 1000
 
 
-class BasicScene(Scene):
+class TargetScene(Scene):
     def __init__(self):
         background_color = pygame.Color(0, 20, 200)
         entity_dict = dict()
-        for time in range(0, speed * 5 + 1, speed):
-            entity_dict[time] = get_basic_entities(25)
+        for time in range(1, speed * 3 + 2, speed):
+            entity_dict[time] = get_targets(3)
         super().__init__(entity_dict=entity_dict, background_color=background_color)
 
 
-def get_basic_entities(count) -> list[PixelEntity]:
+def get_targets(count) -> list[PixelEntity]:
     entities = []  # type: list[PixelEntity]
     for _ in range(count):
-        spawn_point = [
-            random.randint(0, constants.width),
-            random.randint(0, constants.height),
+        random_position = [
+            random.randint(100, constants.width - 100),
+            random.randint(100, constants.height - 100),
         ]
-        entity = BasicEntity(spawn_point)
+        entity = TargetEntity(random_position)
         entities.append(entity)
     return entities

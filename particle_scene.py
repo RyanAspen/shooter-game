@@ -15,7 +15,7 @@ class ParticleScene(Scene):
         background_color = pygame.Color(0, 20, 200)
         particle_dict = dict()
         for time in range(1, speed * 10 + 2, speed):
-            particle_dict[time] = get_particles(1000)
+            particle_dict[time] = get_particles(300)
         super().__init__(particle_dict=particle_dict, background_color=background_color)
 
 
