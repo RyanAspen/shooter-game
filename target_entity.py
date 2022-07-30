@@ -18,15 +18,10 @@ class TargetEntity(PixelEntity):
 
     def __init__(self, spawn_point: point):
         self.time_until_delete = 5
-        """
         visual_rects_1 = [
             (pygame.Rect(0, 0, size * 5, size * 5), pygame.Color(0, 0, 0)),
             (pygame.Rect(size, size, size * 3, size * 3), pygame.Color(255, 255, 255)),
             (pygame.Rect(size * 2, size * 2, size, size), pygame.Color(255, 0, 0)),
-        ]
-        """
-        visual_rects_1 = [
-            (pygame.Rect(0, 0, size * 5, size * 5), pygame.Color(0, 0, 0)),
         ]
         hitboxes_1 = [pygame.Rect(0, 0, size * 5, size * 5)]
         frame_1 = PixelFrame(visual_rects=visual_rects_1, hitboxes=hitboxes_1)

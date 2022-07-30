@@ -20,14 +20,9 @@ class BasicProjectile(PixelEntity):
         self.explosion_stage = 0
         self.counting_down = False
 
-        """
         visual_rects_normal = [
             (pygame.Rect(0, 0, size, size * 2), pygame.Color(0, 255, 0)),
             (pygame.Rect(0, size * 2, size, size * 3), pygame.Color(255, 0, 0)),
-        ]
-        """
-        visual_rects_normal = [
-            (pygame.Rect(0, 0, size * 2, size * 2), pygame.Color(0, 255, 0)),
         ]
         hitboxes_normal = [pygame.Rect(0, 0, size * 2, size * 2)]
         frame_normal = PixelFrame(
