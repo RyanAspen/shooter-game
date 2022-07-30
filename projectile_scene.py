@@ -15,7 +15,7 @@ class ProjectileScene(Scene):
         entity_dict = dict()
         for time in range(0, speed * 5 + 1, speed):
             entity_dict[time] = get_enemy_projectile_entities(10)
-        super().__init__(entity_dict, background_color)
+        super().__init__(entity_dict=entity_dict, background_color=background_color)
 
 
 def get_enemy_projectile_entities(count) -> list[PixelEntity]:

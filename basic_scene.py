@@ -14,8 +14,8 @@ class BasicScene(Scene):
         background_color = pygame.Color(0, 20, 200)
         entity_dict = dict()
         for time in range(0, speed * 5 + 1, speed):
-            entity_dict[time] = get_basic_entities(15)
-        super().__init__(entity_dict, background_color)
+            entity_dict[time] = get_basic_entities(5000)
+        super().__init__(entity_dict=entity_dict, background_color=background_color)
 
 
 def get_basic_entities(count) -> list[PixelEntity]:

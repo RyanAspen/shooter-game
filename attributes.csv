@@ -1,6 +1,6 @@
-﻿name,rigid_body,constrained_to_screen,reflect_off_boundaries,mirror_on_boundaries,destroyed_off_screen,gravity
-Basic Entity,x,,,x,,
-Basic Projectile,,,,,x,
-Enemy Entity,x,,x,,,
-Enemy Projectile,,,,,x,
-Player Entity,,x,,,,
+﻿name,rigid_body,constrained_to_screen,reflect_off_boundaries,mirror_on_boundaries,destroyed_off_screen,gravity,no_interact
+Basic Entity,,,,x,,,x
+Basic Projectile,,,,,x,,
+Enemy Entity,x,,x,,,,
+Enemy Projectile,,,,,x,,
+Player Entity,,x,,,,,

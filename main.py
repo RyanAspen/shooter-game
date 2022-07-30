@@ -11,10 +11,11 @@ TODO:
 """
 
 from basic_scene import BasicScene
+from particle_scene import ParticleScene
 from projectile_scene import ProjectileScene
 from screen import Screen
 
-scenes = [BasicScene()]
+scenes = [ParticleScene()]
 
 screen = Screen(scenes)
 
