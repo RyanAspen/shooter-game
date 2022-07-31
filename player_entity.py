@@ -133,13 +133,13 @@ class PlayerEntity(PixelEntity):
         for event in events:
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_DOWN:
-                    self.down += 1
+                    self.down = 1
                 if event.key == pygame.K_UP:
-                    self.up += 1
+                    self.up = 1
                 elif event.key == pygame.K_LEFT:
-                    self.left += 1
+                    self.left = 1
                 elif event.key == pygame.K_RIGHT:
-                    self.right += 1
+                    self.right = 1
                 elif event.key == pygame.K_SPACE:
                     projectile_spawn_point = self.current_point.copy()
                     projectile_spawn_point[0] += 5
@@ -150,13 +150,13 @@ class PlayerEntity(PixelEntity):
 
             elif event.type == pygame.KEYUP:
                 if event.key == pygame.K_DOWN:
-                    self.down -= 1
+                    self.down = 0
                 if event.key == pygame.K_UP:
-                    self.up -= 1
+                    self.up = 0
                 elif event.key == pygame.K_LEFT:
-                    self.left -= 1
+                    self.left = 0
                 elif event.key == pygame.K_RIGHT:
-                    self.right -= 1
+                    self.right = 0
         if self.up > 0 and self.down == 0:
             if self.left > 0 and self.right == 0:
                 self.change_frame("Left/Up")

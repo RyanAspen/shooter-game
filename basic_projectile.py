@@ -81,14 +81,11 @@ class BasicProjectile(PixelEntity):
         events: list[pygame.event.Event] = [],
         collisions: list[tuple[str, point, point]] = [],
     ):
-        if self.explosion_stage == 0 and self.is_colliding_with_name(
-            collisions, "Basic Entity"
-        ):
-            self.counting_down = True
-        if self.explosion_stage == 0 and self.is_colliding_with_name(
-            collisions, "Target Entity"
-        ):
-            self.counting_down = True
+        for entity_name in ["Basic Entity", "Target Entity", "Enemy Entity"]:
+            if self.explosion_stage == 0 and self.is_colliding_with_name(
+                collisions, entity_name
+            ):
+                self.counting_down = True
         if self.counting_down:
             self.change_speed_absolute([0, 0])
             if self.explosion_time <= 0:

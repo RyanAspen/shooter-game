@@ -83,7 +83,7 @@ class EnemyProjectile(PixelEntity):
         collisions: list[tuple[str, point, point]],
     ):
         if self.current_point[1] > constants.height:
-            should_delete = True
+            self.should_delete = True
         if self.explosion_stage == 0 and self.is_colliding_with_name(
             collisions, "Player Entity"
         ):
@@ -92,7 +92,7 @@ class EnemyProjectile(PixelEntity):
             self.change_speed_absolute([0, 0])
             if self.explosion_time <= 0:
                 if self.explosion_stage >= 3:
-                    should_delete = True
+                    self.should_delete = True
                 else:
                     self.explosion_stage += 1
                     self.explosion_time = 10
@@ -105,7 +105,6 @@ class EnemyProjectile(PixelEntity):
             else:
                 self.explosion_time -= 1
 
-        self.should_delete = should_delete
         self.move_relative(self.speed)
         new_should_delete, new_entity_creation_request = self.handle_attributes(
             window, events, collisions

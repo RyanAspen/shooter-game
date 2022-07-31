@@ -9,6 +9,8 @@ point = list[int]
 
 size = 20
 
+wait_until_delete = 5
+
 
 class BasicEntity(PixelEntity):
 
@@ -26,6 +28,7 @@ class BasicEntity(PixelEntity):
         hitboxes_2 = [pygame.Rect(0, 0, size, size)]
         frame_2 = PixelFrame(visual_rects=visual_rects_2, hitboxes=hitboxes_2)
         frame_dict = {"Normal": frame_1, "Hit": frame_2}
+        self.timer_to_delete = wait_until_delete
         speed_left = 0
         speed_top = 0
         while speed_left == 0 or speed_top == 0:
@@ -47,8 +50,14 @@ class BasicEntity(PixelEntity):
         events: list[pygame.event.Event] = [],
         collisions: list[tuple[str, point, point]] = [],
     ):
-        if self.is_colliding_with_name(collisions, "Basic Projectile"):
+        if self.current_frame_key == "Normal":
+            if self.is_colliding_with_name(collisions, "Basic Projectile"):
+                self.change_frame("Hit")
+        elif self.timer_to_delete > 0:
+            self.timer_to_delete -= 1
+        else:
             self.should_delete = True
+
         self.move_relative(self.speed)
         self.handle_attributes(window, events, collisions)
         self.draw(window)

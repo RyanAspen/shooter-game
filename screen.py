@@ -6,6 +6,7 @@ import time
 import pygame
 from basic_entity import BasicEntity
 from basic_projectile import BasicProjectile
+from enemy_projectile import EnemyProjectile
 from entity_collision_manager import EntityCollisionManager
 from entity_creation_request import EntityCreationRequest
 from particle import Particle
@@ -130,6 +131,8 @@ class Screen:
             self.add_entity(BasicEntity(request.spawn_point))
         elif request.name == "Player Entity":
             self.add_entity(PlayerEntity(request.spawn_point))
+        elif request.name == "Enemy Projectile":
+            self.add_entity(EnemyProjectile(request.spawn_point))
 
     def add_entity(self, entity: E):
         self.entities.append(entity)
