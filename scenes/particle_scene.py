@@ -1,11 +1,11 @@
 # Imports
-import helpers.constants as constants
+import constants as constants
 import math
 import pygame
 import random
 
 from particles.particle import Particle
-from scenes.scene import Scene
+from scene import Scene
 
 # Custom data types
 
@@ -31,8 +31,8 @@ class ParticleScene(Scene):
 def get_particles(count) -> list[Particle]:
     particles = []  # type: list[Particle]
     random_position = [
-        random.randint(100, constants.width - 100),
-        random.randint(100, constants.height - 100),
+        (random.random() * (constants.width - 200)) + 100,
+        (random.random() * (constants.height - 200)) + 100,
     ]
     for _ in range(count):
         random_dir = random.random() * math.pi * 2

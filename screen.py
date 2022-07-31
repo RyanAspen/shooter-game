@@ -1,5 +1,5 @@
 # Imports
-import helpers.constants as constants
+import constants
 import os
 import pygame
 import sys
@@ -10,14 +10,15 @@ from entities.basic_projectile import BasicProjectile
 from entities.enemy_projectile import EnemyProjectile
 from entities.pixel_entity import PixelEntity
 from entities.player_entity import PlayerEntity
-from helpers.entity_collision_manager import EntityCollisionManager
-from helpers.entity_creation_request import EntityCreationRequest
+from entity_collision_manager import EntityCollisionManager
+from entity_creation_request import EntityCreationRequest
 from particles.particle import Particle
 from scenes.scene import Scene
 from typing import TypeVar
 
 # Custom data types
 E = TypeVar("E", bound=PixelEntity)
+S = TypeVar("S", bound=Scene)
 
 # Global constants
 debug_log_time = 100
@@ -30,7 +31,7 @@ class Screen:
     particles, and scenes.
     """
 
-    def __init__(self, scenes: list[Scene]):
+    def __init__(self, scenes: list[S]):
         pygame.init()
         size = constants.width, constants.height
         self.window = pygame.display.set_mode(size)

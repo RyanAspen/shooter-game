@@ -1,11 +1,11 @@
 # Imports
-import helpers.constants as constants
+import constants as constants
 import pygame
 import random
 
 from entities.pixel_entity import PixelEntity
 from entities.target_entity import TargetEntity
-from scenes.scene import Scene
+from scene import Scene
 
 # Custom data types
 

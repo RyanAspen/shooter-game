@@ -1,8 +1,8 @@
 # Imports
 import pygame
 
-from entities.pixel_entity import PixelEntity
-from helpers.pixel_frame import PixelFrame
+from pixel_frame import PixelFrame
+from pixel_entity import PixelEntity
 
 # Custom data types
 point = list[int]
@@ -81,7 +81,7 @@ class BasicProjectile(PixelEntity):
         self,
         window: pygame.Surface,
         events: list[pygame.event.Event] = [],
-        collisions: list[tuple[str, point, point]] = [],
+        collisions: list[tuple[str, point]] = [],
     ):
         for entity_name in ["Basic Entity", "Target Entity", "Enemy Entity"]:
             if self.explosion_stage == 0 and self.is_colliding_with_name(

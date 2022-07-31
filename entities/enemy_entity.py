@@ -1,10 +1,11 @@
 # Imports
-import helpers.constants as constants
+from typing import Optional
+import constants as constants
 import pygame
 
-from helpers.entity_creation_request import EntityCreationRequest
-from helpers.pixel_frame import PixelFrame
-from entities.pixel_entity import PixelEntity
+from entity_creation_request import EntityCreationRequest
+from pixel_frame import PixelFrame
+from pixel_entity import PixelEntity
 
 # Custom data types
 point = list[int]
@@ -47,7 +48,7 @@ class EnemyEntity(PixelEntity):
         self,
         window: pygame.Surface,
         events: list[pygame.event.Event] = [],
-        collisions: list[tuple[str, point, point]] = [],
+        collisions: list[tuple[str, point]] = [],
     ):
         if self.current_frame_key == "Normal":
             if self.is_colliding_with_name(collisions, "Basic Projectile"):
@@ -65,11 +66,11 @@ class EnemyEntity(PixelEntity):
         if self.shoot_timer <= 0:
             self.shoot_timer = shoot_interval
             projectile_spawn_point = self.current_point.copy()
-            projectile_spawn_point[0] += size / 2
+            projectile_spawn_point[0] += int(size / 2)
             projectile_spawn_point[1] += size
             self.entity_creation_request = EntityCreationRequest(
                 "Enemy Projectile", projectile_spawn_point
-            )
+            )  # type: Optional[EntityCreationRequest]
         else:
             self.shoot_timer -= 1
             self.entity_creation_request = None

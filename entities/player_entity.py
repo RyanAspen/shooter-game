@@ -1,9 +1,9 @@
 # Imports
 import pygame
 
-from entities.pixel_entity import PixelEntity
-from helpers.entity_creation_request import EntityCreationRequest
-from helpers.pixel_frame import PixelFrame
+from entity_creation_request import EntityCreationRequest
+from pixel_frame import PixelFrame
+from pixel_entity import PixelEntity
 from typing import Optional
 
 # Custom data types
@@ -126,8 +126,8 @@ class PlayerEntity(PixelEntity):
         self,
         window: pygame.Surface,
         events: list[pygame.event.Event],
-        collisions: list[tuple[str, point, point]],
-    ) -> tuple[bool, Optional[EntityCreationRequest]]:
+        collisions: list[tuple[str, point]],
+    ):
         if self.is_colliding_with_name(collisions, "Enemy Projectile"):
             should_be_deleted = True
         else:

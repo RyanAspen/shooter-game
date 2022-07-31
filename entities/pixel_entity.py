@@ -1,10 +1,10 @@
 # Imports
-import helpers.constants as constants
+import constants as constants
 import pygame
 
-from helpers.attribute_database import AttributeDatabase
-from helpers.entity_creation_request import EntityCreationRequest
-from helpers.pixel_frame import PixelFrame
+from attribute_database import AttributeDatabase
+from entity_creation_request import EntityCreationRequest
+from pixel_frame import PixelFrame
 from typing import Optional
 
 # Custom data types
@@ -45,7 +45,7 @@ class PixelEntity:
         self.layer_priority = layer_priority
         self.speed = initial_speed
         self.should_delete = False
-        self.entity_creation_request = None
+        self.entity_creation_request = None  # type: Optional[EntityCreationRequest]
         self.frozen = False
 
     def spawn(self):

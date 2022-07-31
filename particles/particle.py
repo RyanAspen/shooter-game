@@ -1,5 +1,5 @@
 # Imports
-import helpers.constants as constants
+import constants as constants
 import pygame
 
 # Custom data types
