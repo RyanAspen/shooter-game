@@ -1,18 +1,18 @@
 import os
 from typing import TypeVar
-import constants
+import helpers.constants as constants
 import sys
 import time
 import pygame
-from basic_entity import BasicEntity
-from basic_projectile import BasicProjectile
-from enemy_projectile import EnemyProjectile
-from entity_collision_manager import EntityCollisionManager
-from entity_creation_request import EntityCreationRequest
-from particle import Particle
-from pixel_entity import PixelEntity
-from player_entity import PlayerEntity
-from scene import Scene
+from entities.basic_entity import BasicEntity
+from entities.basic_projectile import BasicProjectile
+from entities.enemy_projectile import EnemyProjectile
+from helpers.entity_collision_manager import EntityCollisionManager
+from helpers.entity_creation_request import EntityCreationRequest
+from particles.particle import Particle
+from entities.pixel_entity import PixelEntity
+from entities.player_entity import PlayerEntity
+from scenes.scene import Scene
 
 E = TypeVar("E", bound=PixelEntity)
 
@@ -32,9 +32,11 @@ class Screen:
         self.active_scene = None
 
         self.debug_file_name = "performance_data.txt"
-        if os.path.exists(os.path.join(os.getcwd(), self.debug_file_name)):
-            os.remove(os.path.join(os.getcwd(), self.debug_file_name))
-        self.debug_file = open(os.path.join(os.getcwd(), self.debug_file_name), "w")
+        if os.path.exists(os.path.join(os.getcwd(), "data", self.debug_file_name)):
+            os.remove(os.path.join(os.getcwd(), "data", self.debug_file_name))
+        self.debug_file = open(
+            os.path.join(os.getcwd(), "data", self.debug_file_name), "w"
+        )
 
         self.debug_file.write("Beginning of debug\n")
 

@@ -1,7 +1,7 @@
 import pygame
-from entity_creation_request import EntityCreationRequest
-from pixel_entity import PixelEntity
-from pixel_frame import PixelFrame
+from helpers.entity_creation_request import EntityCreationRequest
+from entities.pixel_entity import PixelEntity
+from helpers.pixel_frame import PixelFrame
 from typing import Optional
 
 point = list[int]

@@ -1,4 +1,4 @@
-import constants
+import helpers.constants as constants
 import pygame
 
 

@@ -1,6 +1,6 @@
 import pygame
-from particle import Particle
-from pixel_entity import PixelEntity
+from particles.particle import Particle
+from entities.pixel_entity import PixelEntity
 
 
 class Scene:

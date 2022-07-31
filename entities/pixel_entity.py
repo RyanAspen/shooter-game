@@ -1,9 +1,9 @@
 from typing import Optional
-import constants
+import helpers.constants as constants
 import pygame
-from attribute_database import AttributeDatabase
-from entity_creation_request import EntityCreationRequest
-from pixel_frame import PixelFrame
+from helpers.attribute_database import AttributeDatabase
+from helpers.entity_creation_request import EntityCreationRequest
+from helpers.pixel_frame import PixelFrame
 
 point = list[int]
 speed = list[int]

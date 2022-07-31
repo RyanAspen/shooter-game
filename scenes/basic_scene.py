@@ -1,10 +1,10 @@
 import random
 
 import pygame
-from basic_entity import BasicEntity
-import constants
-from pixel_entity import PixelEntity
-from scene import Scene
+from entities.basic_entity import BasicEntity
+import helpers.constants as constants
+from entities.pixel_entity import PixelEntity
+from scenes.scene import Scene
 
 speed = 1000
 

@@ -1,6 +1,6 @@
 import math
 from typing import TypeVar
-from pixel_entity import PixelEntity
+from entities.pixel_entity import PixelEntity
 
 max_dist = 50
 

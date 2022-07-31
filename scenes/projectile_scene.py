@@ -1,10 +1,10 @@
 import random
 
 import pygame
-import constants
-from enemy_projectile import EnemyProjectile
-from pixel_entity import PixelEntity
-from scene import Scene
+import helpers.constants as constants
+from entities.enemy_projectile import EnemyProjectile
+from entities.pixel_entity import PixelEntity
+from scenes.scene import Scene
 
 speed = 100
 

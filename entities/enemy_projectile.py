@@ -1,9 +1,9 @@
 from typing import Optional
 import pygame
-from entity_creation_request import EntityCreationRequest
-from pixel_entity import PixelEntity
-from pixel_frame import PixelFrame
-import constants
+from helpers.entity_creation_request import EntityCreationRequest
+from entities.pixel_entity import PixelEntity
+from helpers.pixel_frame import PixelFrame
+import helpers.constants as constants
 
 point = list[int]
 

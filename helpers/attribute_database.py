@@ -4,7 +4,7 @@ import pandas as pd
 
 class AttributeDatabase:
     def __init__(self):
-        attribute_path = os.path.join(os.getcwd(), "attributes.csv")
+        attribute_path = os.path.join(os.getcwd(), "data", "attributes.csv")
         attribute_df = pd.read_csv(attribute_path)
         self.attribute_dict = dict()
         self.attribute_list = list()

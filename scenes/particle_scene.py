@@ -2,10 +2,10 @@ import math
 import random
 
 import pygame
-from basic_entity import BasicEntity
-import constants
-from particle import Particle
-from scene import Scene
+from entities.basic_entity import BasicEntity
+import helpers.constants as constants
+from particles.particle import Particle
+from scenes.scene import Scene
 
 speed = 50
 

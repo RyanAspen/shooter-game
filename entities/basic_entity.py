@@ -1,43 +1,46 @@
-import constants
+import random
 import pygame
-from entity_creation_request import EntityCreationRequest
-from pixel_entity import PixelEntity
-from pixel_frame import PixelFrame
+from helpers.entity_creation_request import EntityCreationRequest
+from entities.pixel_entity import PixelEntity
+from helpers.pixel_frame import PixelFrame
+from typing import Optional
 
 point = list[int]
 
-size = 40
+size = 20
 
-shoot_interval = 40
-
-wait_until_delete = 20
+wait_until_delete = 5
 
 
-class EnemyEntity(PixelEntity):
+class BasicEntity(PixelEntity):
 
     """
-    EnemyEntity is a PixelEntity that moves from left to right and shoots EnemyProjectiles
+    BasicEntity is a PixelEntity that is just a white square with no other PixelFrames
     """
 
     def __init__(self, spawn_point: point):
-        self.shoot_timer = shoot_interval
-
-        visual_rects_1 = [(pygame.Rect(0, 0, size, size), pygame.Color(120, 120, 255))]
+        visual_rects_1 = [(pygame.Rect(0, 0, size, size), pygame.Color(255, 255, 255))]
         hitboxes_1 = [pygame.Rect(0, 0, size, size)]
         frame_1 = PixelFrame(visual_rects=visual_rects_1, hitboxes=hitboxes_1)
         visual_rects_2 = [
-            (pygame.Rect(0, 0, size, size), pygame.Color(0, 0, 155)),
+            (pygame.Rect(0, 0, size, size), pygame.Color(0, 0, 255)),
         ]
         hitboxes_2 = [pygame.Rect(0, 0, size, size)]
         frame_2 = PixelFrame(visual_rects=visual_rects_2, hitboxes=hitboxes_2)
         frame_dict = {"Normal": frame_1, "Hit": frame_2}
         self.timer_to_delete = wait_until_delete
+        speed_left = 0
+        speed_top = 0
+        while speed_left == 0 or speed_top == 0:
+            speed_left = random.randint(-5, 5)
+            speed_top = random.randint(-5, 5)
+        initial_speed = [speed_left, speed_top]
         super().__init__(
             frame_dict=frame_dict,
             spawn_point=spawn_point,
             starting_frame_key="Normal",
-            name="Enemy Entity",
-            initial_speed=[2, 0],
+            name="Basic Entity",
+            initial_speed=initial_speed,
             layer_priority=0,
         )
 
@@ -54,23 +57,6 @@ class EnemyEntity(PixelEntity):
             self.timer_to_delete -= 1
         else:
             self.should_delete = True
-
-        if self.current_point[0] < 100:
-            self.change_speed_absolute([2, 0])
-        elif self.current_point[0] > constants.width - 100:
-            self.change_speed_absolute([-2, 0])
-
-        if self.shoot_timer <= 0:
-            self.shoot_timer = shoot_interval
-            projectile_spawn_point = self.current_point.copy()
-            projectile_spawn_point[0] += size / 2
-            projectile_spawn_point[1] += size
-            self.entity_creation_request = EntityCreationRequest(
-                "Enemy Projectile", projectile_spawn_point
-            )
-        else:
-            self.shoot_timer -= 1
-            self.entity_creation_request = None
 
         self.move_relative(self.speed)
         self.handle_attributes(window, events, collisions)
