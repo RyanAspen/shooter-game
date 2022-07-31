@@ -1,12 +1,15 @@
+# Imports
 import pygame
 
+# Custom data types
 rect_color_pair = tuple[pygame.Rect, pygame.Color]
 
 
 class PixelFrame:
 
     """
-    PixelFrame is an animation frame of a PixelEntity object
+    PixelFrame is an animation frame of a PixelEntity object that also holds
+    the PixelEntity's hitboxes in that frame
     """
 
     def __init__(

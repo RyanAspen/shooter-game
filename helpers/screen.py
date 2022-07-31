@@ -1,23 +1,35 @@
-import os
-from typing import TypeVar
+# Imports
 import helpers.constants as constants
+import os
+import pygame
 import sys
 import time
-import pygame
+
 from entities.basic_entity import BasicEntity
 from entities.basic_projectile import BasicProjectile
 from entities.enemy_projectile import EnemyProjectile
+from entities.pixel_entity import PixelEntity
+from entities.player_entity import PlayerEntity
 from helpers.entity_collision_manager import EntityCollisionManager
 from helpers.entity_creation_request import EntityCreationRequest
 from particles.particle import Particle
-from entities.pixel_entity import PixelEntity
-from entities.player_entity import PlayerEntity
 from scenes.scene import Scene
+from typing import TypeVar
 
+# Custom data types
 E = TypeVar("E", bound=PixelEntity)
+
+# Global constants
+debug_log_time = 100
 
 
 class Screen:
+
+    """
+    Screen is a class that handles the visual and nonvisual interactions of entities,
+    particles, and scenes.
+    """
+
     def __init__(self, scenes: list[Scene]):
         pygame.init()
         size = constants.width, constants.height
@@ -61,6 +73,7 @@ class Screen:
         events = pygame.event.get()
         for event in events:
             if event.type == pygame.QUIT:
+                self.debug_file.close()
                 sys.exit()
         time_events_end = time.time()
         if (
@@ -108,23 +121,30 @@ class Screen:
         time_end = time.time()
         time.sleep(0.01)
 
-        update_debug_string = "Update #" + str(self.age) + "\n"
-        update_debug_string += "Full update time = " + str(time_end - time_begin) + "\n"
-        update_debug_string += (
-            "Logic update time = " + str(time_end_logic - time_begin) + "\n"
-        )
-        update_debug_string += (
-            "For loop update time = " + str(time_end_logic - time_begin_logic) + "\n"
-        )
-        update_debug_string += (
-            "Events handling update time = " + str(time_events_end - time_begin) + "\n"
-        )
-        update_debug_string += (
-            "Collisions handling update time = "
-            + str(time_collisions_end - time_collisions_begin)
-            + "\n"
-        )
-        self.debug_file.write(update_debug_string)
+        if self.age % debug_log_time == 0:
+            update_debug_string = "Update #" + str(self.age) + "\n"
+            update_debug_string += (
+                "Full update time = " + str(time_end - time_begin) + "\n"
+            )
+            update_debug_string += (
+                "Logic update time = " + str(time_end_logic - time_begin) + "\n"
+            )
+            update_debug_string += (
+                "For loop update time = "
+                + str(time_end_logic - time_begin_logic)
+                + "\n"
+            )
+            update_debug_string += (
+                "Events handling update time = "
+                + str(time_events_end - time_begin)
+                + "\n"
+            )
+            update_debug_string += (
+                "Collisions handling update time = "
+                + str(time_collisions_end - time_collisions_begin)
+                + "\n"
+            )
+            self.debug_file.write(update_debug_string)
 
     def process_entity_creation_request(self, request: EntityCreationRequest):
         if request.name == "Basic Projectile":

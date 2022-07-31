@@ -1,15 +1,17 @@
+# Imports
 import helpers.constants as constants
 import pygame
-from helpers.entity_creation_request import EntityCreationRequest
-from entities.pixel_entity import PixelEntity
-from helpers.pixel_frame import PixelFrame
 
+from helpers.entity_creation_request import EntityCreationRequest
+from helpers.pixel_frame import PixelFrame
+from entities.pixel_entity import PixelEntity
+
+# Custom data types
 point = list[int]
 
-size = 40
-
+# Global constants
 shoot_interval = 40
-
+size = 40
 wait_until_delete = 20
 
 

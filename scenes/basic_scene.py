@@ -1,15 +1,26 @@
+# Imports
+import helpers.constants as constants
+import pygame
 import random
 
-import pygame
 from entities.basic_entity import BasicEntity
-import helpers.constants as constants
 from entities.pixel_entity import PixelEntity
 from scenes.scene import Scene
 
+# Custom data types
+
+# Global constants
 speed = 1000
 
 
 class BasicScene(Scene):
+
+    """
+    BasicScene is a scene which spawns a bunch of entities that bounce
+    into each other and mirrors on the boundaries of the screen. They can be
+    destroyed by the projectiles of the player.
+    """
+
     def __init__(self):
         background_color = pygame.Color(0, 20, 200)
         entity_dict = dict()

@@ -1,16 +1,25 @@
-import math
+# Imports
+import helpers.constants as constants
+import pygame
 import random
 
-import pygame
-import helpers.constants as constants
 from entities.pixel_entity import PixelEntity
-from scenes.scene import Scene
 from entities.target_entity import TargetEntity
+from scenes.scene import Scene
 
+# Custom data types
+
+# Global constants
 speed = 1000
 
 
 class TargetScene(Scene):
+
+    """
+    TargetScene is a scene which spawns several stationary targets that
+    can be destroyed by the player's projectiles
+    """
+
     def __init__(self):
         background_color = pygame.Color(0, 20, 200)
         entity_dict = dict()

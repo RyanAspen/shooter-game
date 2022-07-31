@@ -1,12 +1,14 @@
-from typing import Optional
+# Imports
+import helpers.constants as constants
 import pygame
-from helpers.entity_creation_request import EntityCreationRequest
+
 from entities.pixel_entity import PixelEntity
 from helpers.pixel_frame import PixelFrame
-import helpers.constants as constants
 
+# Custom data types
 point = list[int]
 
+# Global constants
 size = 5
 
 

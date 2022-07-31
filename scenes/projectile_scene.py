@@ -1,15 +1,25 @@
+# Imports
+import helpers.constants as constants
+import pygame
 import random
 
-import pygame
-import helpers.constants as constants
 from entities.enemy_projectile import EnemyProjectile
 from entities.pixel_entity import PixelEntity
 from scenes.scene import Scene
 
+# Custom data types
+
+# Global constants
 speed = 100
 
 
 class ProjectileScene(Scene):
+
+    """
+    ProjectileScene is a scene which spawns several sets of projectiles which fall from the
+    top of the screen that can destroy the player.
+    """
+
     def __init__(self):
         background_color = pygame.Color(110, 130, 0)
         entity_dict = dict()

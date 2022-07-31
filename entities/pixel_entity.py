@@ -1,12 +1,17 @@
-from typing import Optional
+# Imports
 import helpers.constants as constants
 import pygame
+
 from helpers.attribute_database import AttributeDatabase
 from helpers.entity_creation_request import EntityCreationRequest
 from helpers.pixel_frame import PixelFrame
+from typing import Optional
 
+# Custom data types
 point = list[int]
 speed = list[int]
+
+# Global constants
 
 
 class PixelEntity:

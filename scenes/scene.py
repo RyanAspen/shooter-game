@@ -1,13 +1,19 @@
+# Imports
 import pygame
-from particles.particle import Particle
+
 from entities.pixel_entity import PixelEntity
+from particles.particle import Particle
+
+# Custom data types
+
+# Global constants
 
 
 class Scene:
 
     """
-    A Scene contains, among other things, a dictionary where each key is a frame number and each value
-    is a list of entities that should be spawned at the corresponding frame number.
+    Scene is a class that stores information on when and where to spawn
+    various entities and particles.
     """
 
     def __init__(

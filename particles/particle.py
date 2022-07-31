@@ -1,7 +1,8 @@
+# Imports
 import helpers.constants as constants
 import pygame
 
-
+# Custom data types
 point = list[float]
 speed = list[float]
 
@@ -9,8 +10,8 @@ speed = list[float]
 class Particle:
 
     """
-    Very simplified entity that is a single one pixel square that only interacts with specific entities
-    and disappates after a specified time.
+    Particle is a very simplified entity that is a single one pixel square that
+    only interacts with specific entities and disappates after a specified time.
     """
 
     def __init__(

@@ -1,12 +1,13 @@
-import math
-from typing import TypeVar
+# Imports
 from entities.pixel_entity import PixelEntity
+from typing import TypeVar
 
-max_dist = 50
-
+# Custom data types
 E = TypeVar("E", bound=PixelEntity)
-
 point = list[int]
+
+# Global constants
+max_dist = 50
 
 
 class EntityCollisionManager:

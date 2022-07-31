@@ -1,8 +1,15 @@
+# Imports
 import os
 import pandas as pd
 
 
 class AttributeDatabase:
+
+    """
+    AttributeDatabase is a class that handles quick checks to determine what
+    attributes particular entities have
+    """
+
     def __init__(self):
         attribute_path = os.path.join(os.getcwd(), "data", "attributes.csv")
         attribute_df = pd.read_csv(attribute_path)

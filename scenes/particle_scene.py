@@ -1,16 +1,25 @@
+# Imports
+import helpers.constants as constants
 import math
+import pygame
 import random
 
-import pygame
-from entities.basic_entity import BasicEntity
-import helpers.constants as constants
 from particles.particle import Particle
 from scenes.scene import Scene
 
+# Custom data types
+
+# Global constants
 speed = 50
 
 
 class ParticleScene(Scene):
+
+    """
+    ParticleScene is a scene which spawns several bursts of white particles which
+    fall downwards and fade to black.
+    """
+
     def __init__(self):
         background_color = pygame.Color(0, 20, 200)
         particle_dict = dict()

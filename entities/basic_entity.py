@@ -1,14 +1,15 @@
+# Imports
 import random
 import pygame
-from helpers.entity_creation_request import EntityCreationRequest
+
 from entities.pixel_entity import PixelEntity
 from helpers.pixel_frame import PixelFrame
-from typing import Optional
 
+# Custom data types
 point = list[int]
 
+# Global constants
 size = 20
-
 wait_until_delete = 5
 
 
