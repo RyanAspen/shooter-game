@@ -41,6 +41,7 @@ class EnemyEntity(PixelEntity):
         if self.current_frame_key == "Normal":
             if self.is_colliding_with_name(collisions, "Basic Projectile"):
                 self.change_frame("Hit")
+                self.change_speed_absolute([0, 0])
         elif self.timer_to_delete > 0:
             self.timer_to_delete -= 1
         else:
