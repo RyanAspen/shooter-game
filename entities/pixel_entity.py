@@ -292,7 +292,6 @@ class PixelEntity:
         window: pygame.Surface,
         events: list[pygame.event.Event],
         collisions: list[tuple[str, point]],
-        f,
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
         self.change_speed_relative((0, -1))
         return False, None
