@@ -34,6 +34,12 @@ class PixelEntity:
         initial_speed: speed,
         layer_priority: int,
     ):
+
+        # Overall Constant Entity Information
+        self.id = PixelEntity.id_counter
+        PixelEntity.id_counter += 1
+        self.layer_priority = layer_priority
+        self.name = name
         self.frame_dict = dict()
         self.size_dict = dict()
         for frame_name in PixelEntity.entity_visual_info_creator.get_entity_frame_names(
@@ -52,19 +58,20 @@ class PixelEntity:
                 name, frame_name
             )
 
-        self.spawn_point = spawn_point.copy()
+        # Position Information
         self.current_point = spawn_point.copy()
         self.previous_point = spawn_point.copy()
-        self.current_frame_key = starting_frame_key
+        self.spawn_point = spawn_point.copy()
+
+        # Current Frame Information
         self.current_frame = self.frame_dict[starting_frame_key]
-        self.id = PixelEntity.id_counter
-        PixelEntity.id_counter += 1
-        self.name = name
-        self.layer_priority = layer_priority
-        self.speed = initial_speed
-        self.should_delete = False
+        self.current_frame_key = starting_frame_key
+
+        # Overall Variable Entity Information
         self.entity_creation_request = None  # type: Optional[EntityCreationRequest]
         self.frozen = False
+        self.should_delete = False
+        self.speed = initial_speed
 
     def get_center(self) -> list(int):
         center_x = self.current_point[0] + int(
