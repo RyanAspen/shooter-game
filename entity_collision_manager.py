@@ -54,6 +54,7 @@ class EntityCollisionManager:
 def are_colliding(entity_1: PixelEntity, entity_2: PixelEntity) -> bool:
     if entity_1.id == entity_2.id:
         return False
+
     for rect1 in entity_1.current_frame.hitboxes:
         for rect2 in entity_2.current_frame.hitboxes:
             if rect1.colliderect(rect2):

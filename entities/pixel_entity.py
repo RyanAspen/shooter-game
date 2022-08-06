@@ -4,6 +4,7 @@ import pygame
 
 from attribute_database import AttributeDatabase
 from entity_creation_request import EntityCreationRequest
+from entity_visual_creator import EntityVisualCreator
 from pixel_frame import PixelFrame
 from typing import Optional
 
@@ -18,6 +19,7 @@ class PixelEntity:
 
     id_counter = 1
     attribute_db = AttributeDatabase()
+    entity_visual_info_creator = EntityVisualCreator()
     """
     PixelEntity contains at minimum, a set of rectangles describing the pixels of the entity,
     a set of invisible rectangles describing the hitboxes of that entity, 
@@ -26,19 +28,30 @@ class PixelEntity:
 
     def __init__(
         self,
-        frame_dict: dict[str, PixelFrame],
         spawn_point: point,
         starting_frame_key: str,
         name: str,
         initial_speed: speed,
         layer_priority: int,
     ):
-        self.frame_dict = frame_dict
+        self.frame_dict = dict()
+        for frame_name in PixelEntity.entity_visual_info_creator.get_entity_frame_names(
+            name
+        ):
+            frame_image = PixelEntity.entity_visual_info_creator.get_entity_info(
+                name, frame_name
+            )
+            # image_width, image_height = PixelEntity.entity_visual_info_creator.get_scaling_info(name, frame_name)
+            frame_hitboxes = PixelEntity.entity_visual_info_creator.get_hitbox_info(
+                name, frame_name
+            )
+            self.frame_dict[frame_name] = PixelFrame(frame_image, frame_hitboxes)
+
         self.spawn_point = spawn_point.copy()
         self.current_point = spawn_point.copy()
         self.previous_point = spawn_point.copy()
         self.current_frame_key = starting_frame_key
-        self.current_frame = frame_dict[starting_frame_key]
+        self.current_frame = self.frame_dict[starting_frame_key]
         self.id = PixelEntity.id_counter
         PixelEntity.id_counter += 1
         self.name = name
@@ -50,42 +63,18 @@ class PixelEntity:
 
     def spawn(self):
         for frame_key in self.frame_dict:
-            if frame_key != self.current_frame_key:
-                for rect, _ in self.frame_dict[frame_key].visual_rects:
-                    rect.left += self.spawn_point[0]
-                    rect.top += self.spawn_point[1]
-                for rect in self.frame_dict[frame_key].hitboxes:
-                    rect.left += self.spawn_point[0]
-                    rect.top += self.spawn_point[1]
-
-        for rect, _ in self.current_frame.visual_rects:
-            rect.left += self.spawn_point[0]
-            rect.top += self.spawn_point[1]
-
-        for rect in self.current_frame.hitboxes:
-            rect.left += self.spawn_point[0]
-            rect.top += self.spawn_point[1]
+            for rect in self.frame_dict[frame_key].hitboxes:
+                rect.left += self.spawn_point[0]
+                rect.top += self.spawn_point[1]
 
     def move_relative(self, movement: speed):
         self.current_point[0] += movement[0]
         self.current_point[1] += movement[1]
 
         for frame_key in self.frame_dict:
-            if frame_key != self.current_frame_key:
-                for rect, _ in self.frame_dict[frame_key].visual_rects:
-                    rect.left += movement[0]
-                    rect.top += movement[1]
-                for rect in self.frame_dict[frame_key].hitboxes:
-                    rect.left += movement[0]
-                    rect.top += movement[1]
-
-        for rect, _ in self.current_frame.visual_rects:
-            rect.left += movement[0]
-            rect.top += movement[1]
-
-        for rect in self.current_frame.hitboxes:
-            rect.left += movement[0]
-            rect.top += movement[1]
+            for rect in self.frame_dict[frame_key].hitboxes:
+                rect.left += movement[0]
+                rect.top += movement[1]
 
     def move_absolute(self, new_location: point):
         diff = [0, 0]
@@ -124,8 +113,9 @@ class PixelEntity:
             self.speed[1] = -self.speed[1]
 
     def draw(self, window: pygame.Surface):
-        for rect, color in self.current_frame.visual_rects:
-            pygame.draw.rect(window, color, rect)
+        window.blit(
+            self.current_frame.image, (self.current_point[0], self.current_point[1])
+        )
 
     def handle_attributes(
         self,
@@ -142,8 +132,9 @@ class PixelEntity:
         * destroyed_off_screen -> destroys itself after leaving the screen
         * gravity -> experiences gravity downwards
         """
-        entity_creation_request = None
 
+        entity_creation_request = None
+        """ 
         if PixelEntity.attribute_db.has_attribute(self.name, "rigid_body"):
             new_should_delete, new_entity_creation_request = self.handle_rigid_body(
                 window, events, collisions
@@ -201,7 +192,7 @@ class PixelEntity:
                 entity_creation_request = new_entity_creation_request
             if new_should_delete:
                 return (True, entity_creation_request)
-
+        """
         return (False, entity_creation_request)
 
     def handle_rigid_body(
@@ -302,6 +293,7 @@ class PixelEntity:
         window: pygame.Surface,
         events: list[pygame.event.Event],
         collisions: list[tuple[str, point]],
+        f,
     ) -> tuple[bool, Optional[EntityCreationRequest]]:
         self.change_speed_relative((0, -1))
         return False, None

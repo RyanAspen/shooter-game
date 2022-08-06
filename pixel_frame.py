@@ -2,7 +2,6 @@
 import pygame
 
 # Custom data types
-rect_color_pair = tuple[pygame.Rect, pygame.Color]
 
 
 class PixelFrame:
@@ -13,7 +12,7 @@ class PixelFrame:
     """
 
     def __init__(
-        self, visual_rects: list[rect_color_pair], hitboxes: list[pygame.Rect]
+        self, image: pygame.Surface, hitboxes: list[pygame.Rect]
     ):
-        self.visual_rects = visual_rects
+        self.image = image
         self.hitboxes = hitboxes

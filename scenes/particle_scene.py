@@ -5,7 +5,7 @@ import pygame
 import random
 
 from particles.particle import Particle
-from scene import Scene
+from scenes.scene import Scene
 
 # Custom data types
 

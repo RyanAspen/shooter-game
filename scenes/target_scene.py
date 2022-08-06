@@ -5,7 +5,7 @@ import random
 
 from entities.pixel_entity import PixelEntity
 from entities.target_entity import TargetEntity
-from scene import Scene
+from scenes.scene import Scene
 
 # Custom data types
 
