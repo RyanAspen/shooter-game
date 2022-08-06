@@ -35,17 +35,22 @@ class PixelEntity:
         layer_priority: int,
     ):
         self.frame_dict = dict()
+        self.size_dict = dict()
         for frame_name in PixelEntity.entity_visual_info_creator.get_entity_frame_names(
             name
         ):
             frame_image = PixelEntity.entity_visual_info_creator.get_entity_info(
                 name, frame_name
             )
-            # image_width, image_height = PixelEntity.entity_visual_info_creator.get_scaling_info(name, frame_name)
             frame_hitboxes = PixelEntity.entity_visual_info_creator.get_hitbox_info(
                 name, frame_name
             )
             self.frame_dict[frame_name] = PixelFrame(frame_image, frame_hitboxes)
+            self.size_dict[
+                frame_name
+            ] = PixelEntity.entity_visual_info_creator.get_scaling_info(
+                name, frame_name
+            )
 
         self.spawn_point = spawn_point.copy()
         self.current_point = spawn_point.copy()
@@ -60,6 +65,15 @@ class PixelEntity:
         self.should_delete = False
         self.entity_creation_request = None  # type: Optional[EntityCreationRequest]
         self.frozen = False
+
+    def get_center(self) -> list(int):
+        center_x = self.current_point[0] + int(
+            self.size_dict[self.current_frame_key][0] / 2
+        )
+        center_y = self.current_point[1] + int(
+            self.size_dict[self.current_frame_key][1] / 2
+        )
+        return [center_x, center_y]
 
     def spawn(self):
         for frame_key in self.frame_dict:
