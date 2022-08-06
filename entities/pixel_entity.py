@@ -134,7 +134,6 @@ class PixelEntity:
         """
 
         entity_creation_request = None
-        """ 
         if PixelEntity.attribute_db.has_attribute(self.name, "rigid_body"):
             new_should_delete, new_entity_creation_request = self.handle_rigid_body(
                 window, events, collisions
@@ -192,7 +191,7 @@ class PixelEntity:
                 entity_creation_request = new_entity_creation_request
             if new_should_delete:
                 return (True, entity_creation_request)
-        """
+
         return (False, entity_creation_request)
 
     def handle_rigid_body(
