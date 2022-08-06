@@ -31,8 +31,7 @@ class Screen:
     particles, and scenes.
     """
 
-    def __init__(self, scenes: list[S], window: pygame.Surface):
-        size = constants.width, constants.height
+    def __init__(self, scenes: list[S], window: pygame.surface.Surface):
         self.window = window
         self.entities = []  # type: list[PixelEntity]
         self.particles = []  # type: list[Particle]

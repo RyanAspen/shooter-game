@@ -7,7 +7,7 @@ from scenes.projectile_scene import ProjectileScene
 from screen import Screen
 from scenes.target_scene import TargetScene
 
-scenes = [EnemyScene()]
+scenes = [BasicScene()]
 
 
 window = pygame.display.set_mode(constants.size)

@@ -77,7 +77,7 @@ class EntityVisualCreator:
             self.image_dict[entity_name] = entity_information
 
     def get_entity_frame_names(self, entity_name: str) -> list[str]:
-        return self.image_dict[entity_name].keys()
+        return list(self.image_dict[entity_name].keys())
 
     def get_entity_info(self, entity_name: str, frame_name: str) -> visual_info:
         return self.image_dict[entity_name][frame_name][0]
@@ -88,13 +88,5 @@ class EntityVisualCreator:
     def get_hitbox_info(self, entity_name: str, frame_name: str) -> hitbox_info:
         hitboxes = []
         for rect in self.image_dict[entity_name][frame_name][2]:
-            hitboxes.append(rect.copy())
+            hitboxes.append(pygame.Rect(rect.left, rect.top, rect.width, rect.height))
         return hitboxes
-
-
-"""
-        hitboxes = []
-        for rect in self.image_dict[entity_name][frame_name][0]:
-            hitboxes.append(rect.copy())
-        return hitboxes
-"""
