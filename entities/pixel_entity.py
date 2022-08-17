@@ -9,8 +9,8 @@ from pixel_frame import PixelFrame
 from typing import Optional
 
 # Custom data types
-point = list[int]
-speed = list[int]
+point = list[float]
+speed = list[float]
 
 # Global constants
 
@@ -73,29 +73,25 @@ class PixelEntity:
         self.should_delete = False
         self.speed = initial_speed
 
-    def get_center(self) -> list(int):
-        center_x = self.current_point[0] + int(
-            self.size_dict[self.current_frame_key][0] / 2
-        )
-        center_y = self.current_point[1] + int(
-            self.size_dict[self.current_frame_key][1] / 2
-        )
+    def get_center(self) -> list[int]:
+        center_x = self.current_point[0] + self.size_dict[self.current_frame_key][0] / 2
+        center_y = self.current_point[1] + self.size_dict[self.current_frame_key][1] / 2
         return [center_x, center_y]
 
-    def spawn(self):
-        for frame_key in self.frame_dict:
-            for rect in self.frame_dict[frame_key].hitboxes:
-                rect.left += self.spawn_point[0]
-                rect.top += self.spawn_point[1]
+    def get_speed_to_reach_position(
+        self, new_location: point, time_to_reach_point: int
+    ) -> speed:
+        diff = [0, 0]
+        diff[0] = new_location[0] - self.current_point[0]
+        diff[1] = new_location[1] - self.current_point[1]
+        speed_to_reach = [0, 0]
+        speed_to_reach[0] = diff[0] / time_to_reach_point
+        speed_to_reach[1] = diff[1] / time_to_reach_point
+        return speed_to_reach
 
     def move_relative(self, movement: speed):
         self.current_point[0] += movement[0]
         self.current_point[1] += movement[1]
-
-        for frame_key in self.frame_dict:
-            for rect in self.frame_dict[frame_key].hitboxes:
-                rect.left += movement[0]
-                rect.top += movement[1]
 
     def move_absolute(self, new_location: point):
         diff = [0, 0]
@@ -135,7 +131,8 @@ class PixelEntity:
 
     def draw(self, window: pygame.Surface):
         window.blit(
-            self.current_frame.image, (self.current_point[0], self.current_point[1])
+            self.current_frame.image,
+            (int(self.current_point[0]), int(self.current_point[1])),
         )
 
     def handle_attributes(

@@ -4,10 +4,9 @@ from typing import TypeVar
 
 # Custom data types
 E = TypeVar("E", bound=PixelEntity)
-point = list[int]
+point = list[float]
 
 # Global constants
-max_dist = 50
 
 
 class EntityCollisionManager:
@@ -57,10 +56,14 @@ def are_colliding(entity_1: PixelEntity, entity_2: PixelEntity) -> bool:
 
     for rect1 in entity_1.current_frame.hitboxes:
         for rect2 in entity_2.current_frame.hitboxes:
-            if rect1.colliderect(rect2):
+            rect1_moved = rect1.copy()
+            rect1_moved.left += int(entity_1.current_point[0])
+            rect1_moved.top += int(entity_1.current_point[1])
+
+            rect2_moved = rect2.copy()
+            rect2_moved.left += int(entity_2.current_point[0])
+            rect2_moved.top += int(entity_2.current_point[1])
+
+            if rect1_moved.colliderect(rect2_moved):
                 return True
     return False
-
-
-def are_different(entity_1: PixelEntity, entity_2: PixelEntity) -> bool:
-    return entity_1.id != entity_2.id

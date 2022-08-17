@@ -53,7 +53,6 @@ class Screen:
 
         player = PlayerEntity([int(constants.width / 2), int(constants.height - 20)])
         self.entities.append(player)
-        player.spawn()
 
         # Add entities that care about collisions here
         self.collision_manager = EntityCollisionManager()
@@ -160,7 +159,6 @@ class Screen:
         self.entities = sort_entities_by_layer_priority(self.entities)
         if not entity.attribute_db.has_attribute(entity.name, "no_interact"):
             self.collision_manager.add_entity(entity)
-        entity.spawn()
 
     def add_entities(self, entities: list[E]):
         self.entities += entities
@@ -168,7 +166,6 @@ class Screen:
         for entity in entities:
             if not entity.attribute_db.has_attribute(entity.name, "no_interact"):
                 self.collision_manager.add_entity(entity)
-            entity.spawn()
 
     def add_particle(self, particle: Particle):
         self.particles.append(particle)

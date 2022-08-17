@@ -52,17 +52,18 @@ class EnemyEntity(PixelEntity):
         elif self.current_point[0] > constants.width - 100:
             self.change_speed_absolute([-2, 0])
 
-        if self.shoot_timer <= 0:
-            self.shoot_timer = shoot_interval
-            projectile_spawn_point = self.current_point.copy()
-            projectile_spawn_point[0] += int(size / 2)
-            projectile_spawn_point[1] += size
-            self.entity_creation_request = EntityCreationRequest(
-                "Enemy Projectile", projectile_spawn_point
-            )  # type: Optional[EntityCreationRequest]
-        else:
-            self.shoot_timer -= 1
-            self.entity_creation_request = None
+        if self.current_frame_key == "Normal":
+            if self.shoot_timer <= 0:
+                self.shoot_timer = shoot_interval
+                projectile_spawn_point = self.current_point.copy()
+                projectile_spawn_point[0] += size / 2
+                projectile_spawn_point[1] += size
+                self.entity_creation_request = EntityCreationRequest(
+                    "Enemy Projectile", projectile_spawn_point
+                )  # type: Optional[EntityCreationRequest]
+            else:
+                self.shoot_timer -= 1
+                self.entity_creation_request = None
 
         self.move_relative(self.speed)
         self.handle_attributes(window, events, collisions)
